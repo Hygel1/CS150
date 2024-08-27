@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=MyClass
+comment0.text=\r\n\ Uses\ main\ method\ to\ print\ "Hello\ World"\ to\ console\r\n\r\n\ @author\ Sean\ McLoughlin\r\n\ @version\ 1.0\ 8/27/24\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Main\ method\ -\ prints\ "Hello\ World"\r\n\ @param\ args\ array\ of\ String\ values\ to\ be\ printed\r\n
+numComments=2
