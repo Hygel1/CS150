@@ -1,0 +1,19 @@
+access modifiers
+    public - can be accessed by all classes
+    private - can only be accessed by the defining class
+    protected - can only be accessed by the defining class and its descendants
+    *no modifier* - can be accessed by anything within the package (folder*) -- generally not ideal
+perpendicular modifier
+    java has object related modifiers that determine how a class works in the code
+    static - works as a function of a class but is independent of any single object
+        -while many instances of any single class can be working at once, referencing a static method/variable will always return the same value
+        -can be run even when an object of the defining class does not yet exist
+        -static methods can only use other static variables/methods
+Variable definition and casting
+    - all variables must be given a type upon creation
+    - values can be retyped, but variables cannot (eg. I can convert the value of an int to a double but the returned value must be placed in a new double-defined variable)
+    - when assigning a value to a variable, the types must agree (or make sense) for the assignment to work
+    casting redefines a value to a different type for teh purpose of type agreement
+        explicit casting requries a "(type) value" while implicit casting allows you to place a value into the spot of a different type without making any explicit indication
+            implicit casting is only allowed when gaining accracy (eg. int-->double is allowed but double-->int is not)
+            

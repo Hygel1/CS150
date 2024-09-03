@@ -1,0 +1,40 @@
+Abstract data types
+    - specification of ways data can be interacted with
+    - allows for simplified focus and modularity
+    - ex: list
+        - contains ordered collection of elements
+        - want to be able to add/remove elements
+        - want to be able to gte/set values
+        - **there is no specification for how any of these steps need to be done**
+            - allows for subclasses to define how these things work, but defines that they must be able to be done
+        - array list
+            - values are stored in an array with "variable" size
+            - allows for 'wiggle room' in an array
+Lists
+    - things to consider when building a list:
+        - disk space requirements
+        - Program time efficiency -- how long does it take to build/perform actions
+        - Development time - how long does it take to program/design
+        - code maintainabillity -- how easy is it to fix/update
+        - specialized usage -- what kind of computer is running the code, what kind of data maintenance needs to be done over time
+Parts of an implementation decision
+    - solid understanding of the implementation's pros and cons -- benefits and trade-offs
+    - understanding the basics of a tool and how it works
+Interfaces
+    - include method skeletons, including parameter definitions, return type, method name, and comment explanation
+    - holds no code for any methods
+        the interface is exclusively an outline
+    this is different from an abstract class because the abstract class can define some methods, while the interface can define none
+    classes can implement unlimited interfaces, but can only inherit one class (abstract or not)
+    to define interface:
+        public interface MyInterface{
+            void method1(int num); //since this method is undefined, the header is ended with a semicolon rather than braces
+        }
+    to implement an interface:
+        public class MyClass implements MyInterface{}
+    to implement an abstract class:
+        public class MyOtherClass extends MyAbstractClass implements MyINterface, MyOtherINterface{}
+    a class that implements an interface will not compile until every method defined in the interface has been programmed (and has the proper inputs/outputs)
+    -interfaces should not have their own variables, private/package/protected methods, code for their public methods
+    -interfaces should be extensively documented, because there is no code that can be read to understand what the method is intended to do
+    

@@ -1,0 +1,8 @@
+this is a test
+another test
+edge case 
+
+============================
+Line Count: 3
+Word Count: 8
+Char Count: 36

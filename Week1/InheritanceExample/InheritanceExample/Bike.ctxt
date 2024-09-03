@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Bike
+comment0.text=\n\ A\ bike\ simulation\ where\ the\ biker\ refuses\ to\ go\ into\ negative\ values\n\n\ @author\ Jon\ Dahl\n\ @version\ 0.01\n
+comment1.params=x\ y
+comment1.target=Bike(float,\ float)
+comment1.text=\n\ Position\ constructor\ for\ objects\ of\ class\ Bike\n\ @param\ x\ initial\ x\ position\n\ @param\ y\ initial\ y\ position\n
+comment2.params=x\ y
+comment2.target=boolean\ move(float,\ float)
+numComments=3

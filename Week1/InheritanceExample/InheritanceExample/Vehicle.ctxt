@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Vehicle
+comment0.text=\n\ A\ simple\ simulation\ of\ a\ vehicle\ in\ 2D.\n\n\ @author\ Jon\ Dahl\n\ @version\ 0.01\n
+comment1.params=x\ y
+comment1.target=Vehicle(float,\ float)
+comment1.text=\n\ Position\ constructor\ for\ objects\ of\ class\ Vehicle\n\ @param\ x\ initial\ x\ position\n\ @param\ y\ initial\ y\ position\n
+comment2.params=x\ y
+comment2.target=boolean\ move(float,\ float)
+comment2.text=\n\ Moves\ the\ vehicle\ a\ specified\ amount\n\ @param\ x\ amount\ to\ move\ in\ the\ x\ direction\n\ @param\ y\ amount\ to\ move\ in\ the\ y\ direction\n\ @return\ true\ if\ able\ to\ move\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\n\ Gives\ the\ vehicle's\ position\n\ @return\ phrase\ giving\ the\ position\n
+numComments=4

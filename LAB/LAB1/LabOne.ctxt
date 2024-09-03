@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=LabOne
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Takes\ indefinite\ amount\ of\ user\ input,\ parses\ into\ single\ words\ (defining\ a\ word\ as\ any\ nonspace\ continuous\ string\ surrounded\ by\ either\ edge\ or\ spaces),\r\n\ prints\ the\ input\ (granting\ each\ word\ its\ own\ line),\ then\ prints\ the\ amount\ of\ lines,\ words,\ and\ characters\ inputted\ by\ the\ user.\r\n\ Prints\ exact\ user\ input\ followed\ by\ number\ of\ lines,\ words,\ and\ characters\ to\ file\ named\ "Lab01.txt"\r\n
+numComments=2

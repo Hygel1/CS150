@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Car
+comment0.text=\n\ A\ car\ simulation\ with\ simple\ gas\ tank\ behavior\n\n\ @author\ Jon\ Dahl\n\ @version\ 0.01\n
+comment1.params=x\ y\ level\ capacity\ mpg
+comment1.target=Car(float,\ float,\ float,\ float,\ float)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Car\n\ @param\ x\ initial\ x\ position\n\ @param\ y\ initial\ y\ position\n\ @param\ level\ intial\ gas\ tank\ level\n\ @param\ capacity\ gas\ tank\ capacity\n\ @param\ mpg\ gas\ efficieny\n
+comment2.params=
+comment2.target=void\ fillUp()
+comment2.text=\n\ Fills\ up\ the\ gas\ tank\n
+comment3.params=x\ y
+comment3.target=boolean\ move(float,\ float)
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\n\ Gives\ the\ car's\ position\ and\ gas\ level\n\ @return\ phrase\ giving\ position\ and\ gas\ level\n
+numComments=5
