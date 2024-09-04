@@ -1,4 +1,7 @@
 package Project1;
+/**
+ * represents a parent class to be inherited by animals used by the River class
+ */
 public abstract class Animal {
     protected enum Gender{FEMALE, MALE}
     protected Gender gender;

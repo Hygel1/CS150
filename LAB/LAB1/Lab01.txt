@@ -1,8 +1,13 @@
 this is a test
-another test
-edge case 
+this
+is
+a
+test
+this too
+this
+too
 
 ============================
-Line Count: 3
-Word Count: 8
-Char Count: 36
+Line Count: 2
+Word Count: 6
+Char Count: 22

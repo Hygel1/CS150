@@ -1,5 +1,7 @@
 package Project1;
-
+/**
+ * represents an instance of a Fish animal to be used in the River class
+ */
 public class Fish extends Animal{
     
     /**
@@ -7,15 +9,8 @@ public class Fish extends Animal{
      */
     public Fish(){
         age=0;
-        River.fishTracker++;
-        if(Math.random()>.5){
-            gender=Gender.MALE;
-            River.maleTracker++;
-        }
-        else{
-            gender=Gender.FEMALE;
-            River.femaleTracker++;
-        }
+        if(Math.random()>.5) gender=Gender.MALE;
+        else gender=Gender.FEMALE;
     }
     /**
      * advances age by one year

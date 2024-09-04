@@ -27,9 +27,10 @@ public class LabOne
          do{
             lastIn=scan.nextLine();
             if(lastIn.equals("")) break;
-            fullOut+=lastIn+"\n";
+            buffer.write(lastIn+"\n");
             lineCounter++;charCounter+=lastIn.length(); //tally counters
             System.err.println("continuing to loop >>"+lastIn+"<<");
+            /*
             int holdLast=0; //position holder for word incrementation -- outside of loop to use for final word
             //use while loop to avoid second scanner, makes the code more understandable
             while(lastIn.indexOf(" ",holdLast)!=-1){ //search for and print each individual word by finding spaces -- while there exists a space in the remaining String
@@ -40,12 +41,25 @@ public class LabOne
             }
             if(lastIn.substring(holdLast).length()>0) wordCounter++; //tally counter
             System.out.println(lastIn.substring(holdLast)); //prints what remains of entered String
+        */
+           Scanner scanWord = new Scanner(lastIn);
+           while(scanWord.hasNext()){
+               String nextWord = scanWord.next();
+               System.out.println(nextWord);
+               wordCounter++;
+               buffer.write(nextWord+"\n");
+           }
+       
         }while(!lastIn.equals(""));//do while loop to bypass initial empty string value - gone!!
+           
+        
+        
         System.err.println("exiting loop");
         String finData="\n"+"============================\nLine Count: "+lineCounter+"\nWord Count: "+wordCounter+"\nChar Count: "+charCounter;
         System.out.println(finData);
         fullOut+=finData;
-        writer.write(fullOut);
+        buffer.write(fullOut);
+        buffer.close();
         writer.close();
     }
 }

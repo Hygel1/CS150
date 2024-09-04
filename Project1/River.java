@@ -1,33 +1,54 @@
 package Project1;
+/**
+ * All helper methods have been left private, all methods required for a single-cycle step have been made puvlic to allow accessor class to choose between manual control and auto-run
+ */
 public class River {
     private Animal[] river;
-    public int cycleTracker, fishTracker, bearTracker, femaleTracker, maleTracker;
-    /**
-     * runs river cycling until river is found to be fully empty (advance and print state), then prints full stat brief (male/female ratio, bear/fish ratio)
-     */
-    public void autoRun(){
-        printRiver();
-        while(!gameOver()){
-            advanceYear();
-            printRiver();
-        }
-        System.out.println("Male: "+maleTracker+" "+(100*(double)maleTracker/(maleTracker+femaleTracker))+"%");
-        System.out.println("Female: "+femaleTracker+" "+(100*(double)femaleTracker/(maleTracker+femaleTracker))+"%");
-        System.out.println("Bears: "+bearTracker+" "+(100*(double)bearTracker/(bearTracker+fishTracker))+"%");
-        System.out.println("Fish: "+fishTracker+" "+(100*(double)fishTracker/(bearTracker+fishTracker))+"%");
-    }
+    private int cycleTracker, fishTracker, bearTracker, femaleTracker, maleTracker;
+    private float initPerc;
     /**
      * builds river array and sets inital population, each index is randomly assigned 1 of 3 values (new fish, new bear, or null)
      */
     public River(int size){
         river = new Animal[size];
         cycleTracker=0;fishTracker=0;femaleTracker=0;maleTracker=0;
-        for(int i=0;i<river.length;i++){
-            int hold=(int)(Math.random()*3);
-            if(hold==0) river[i]=new Bear();
-            else if(hold==1) river[i]=new Fish();
+        for(int i=0;i<river.length;i++){ //run through every index and decide initial position
+            int hold=(int)(Math.random()*3); //random 0-2
+            if(hold==0){
+                river[i]=new Bear();
+                bearTracker++; //increment bear tracker to track bears
+            }
+            else if(hold==1){
+                river[i]=new Fish();
+                fishTracker++; //increment fish tracker to track fish 
+            }
             //in case of value 2, river spot is left null
+            if(hold<2){
+                if(river[i].checkGender()==Animal.Gender.MALE) maleTracker++; //increment male tracker to track males
+                else femaleTracker++; //increment female tracker to count females
+            }
+            
         }
+        
+        initPerc=(float)fishTracker/(fishTracker+bearTracker); //process initial count values
+
+    }
+    /**
+     * runs river cycling until river is found to be fully empty (advance and print state), then prints full stat brief (male/female ratio, bear/fish ratio)
+     */
+    public void autoRun(){
+        printRiver(); //update console (initial)
+        while(!gameOver()){ //while there exits non-null indices
+            advanceYear(); //advance life cycle once
+            printRiver(); //update console
+        }
+        /**
+        //print stat briefing - old stat printing system, would be useful in other implementation
+        System.out.println("Male: "+maleTracker+" "+(100*(double)maleTracker/(maleTracker+femaleTracker))+"%");
+        System.out.println("Female: "+femaleTracker+" "+(100*(double)femaleTracker/(maleTracker+femaleTracker))+"%");
+        System.out.println("Bears: "+bearTracker+" "+(100*(double)bearTracker/(bearTracker+fishTracker))+"%");
+        System.out.println("Fish: "+fishTracker+" "+(100*(double)fishTracker/(bearTracker+fishTracker))+"%");
+        */
     }
     /**
      * ages all animals one year and runs a single cycle of potential movement for all animals in array
@@ -60,7 +81,7 @@ public class River {
      * @param approaching index of moving animal
      * @param i2 index of animal being approached
      */
-    public void approaching(int approaching,int i2){
+    private void approaching(int approaching,int i2){
         if(river[i2]==null){ //if cell to move into is empty, animal can move without interaction
             river[i2]=river[approaching];
             river[approaching]=null;
@@ -92,7 +113,7 @@ public class River {
      * 
      * @param type represents the type of animal to be birthed, 0=bear, 1=fish
      */
-    public void mate(int type){
+    private void mate(int type){
         boolean full=true;
         for(int k=0;k<river.length;k++){ //check if array is full
             if(river[k]==null){ 
@@ -106,15 +127,23 @@ public class River {
                 int holdInd=(int)(Math.random()*(river.length));
                 if(river[holdInd]==null) randInd=holdInd;
             }
-            if(type==0) river[randInd]=new Bear();
-            else river[randInd]=new Fish();
+            if(type==0){
+                river[randInd]=new Bear();
+                bearTracker++; //increment tracker to track bears
+            }
+            else{
+                river[randInd]=new Fish();
+                fishTracker++; //increment tracker to count fish
+            }
+            if(river[randInd].checkGender()==Animal.Gender.MALE) maleTracker++; //increment tracker to find males
+            else femaleTracker++; //increment tracker to find females
         }
     }
     /**
      * Prints full explanation of the current state of the river array,
      * represents each animal as its toString() value and states the number of completed cycles
      */
-    private void printRiver(){
+    public void printRiver(){
         for(int i=0;i<river.length;i++){
             System.out.print(river[i]);
             if(i<river.length-1) System.out.print(", ");
@@ -125,10 +154,25 @@ public class River {
      * checks to see if all indices in the river are null (eg: there is no possible next move to be made)
      * @return boolean to represent whether or not the simulation is fully exhausted
      */
-    private boolean gameOver(){
+    public boolean gameOver(){
         for(int i=0;i<river.length;i++){
             if(river[i]!=null) return false;
         }
         return true;
+    }
+    /**
+     * accessor method for all stat values collected over runtime
+     * @return integer array representing femaleTracker, maleTracker, fishTracker, bearTracker
+     */
+    public int[] stats(){
+        int[] rtn = new int[4];
+        rtn[0]=femaleTracker;
+        rtn[1]=maleTracker;
+        rtn[2]=fishTracker;
+        rtn[3]=bearTracker;
+        return rtn;
+    }
+    public float initDiff(){
+        return initPerc;
     }
 }

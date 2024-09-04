@@ -1,5 +1,7 @@
 package Project1;
-
+/**
+ * represents an instance of a Bear animal used by the River class
+ */
 public class Bear extends Animal{
     int strength;
     /**
@@ -8,15 +10,8 @@ public class Bear extends Animal{
     public Bear(){
         strength=1;
         age=0;
-        River.bearTracker++;
-        if(Math.random()>.5){
-            gender=Gender.MALE;
-            River.maleTracker++;
-        }
-        else{
-            gender=Gender.FEMALE;
-            River.femaleTracker++;
-        }
+        if(Math.random()>.5) gender=Gender.MALE;
+        else gender=Gender.FEMALE;
     }
     /**
      * advances age by one year and sets strength level to correspond with incoming age
