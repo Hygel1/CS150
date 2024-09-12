@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Fish
+comment0.text=\r\n\ represents\ an\ instance\ of\ a\ Fish\ animal\ to\ be\ used\ in\ the\ River\ class\r\n
+comment1.params=
+comment1.target=Fish()
+comment1.text=\r\n\ initializes\ fish\ object,\ sets\ age\ to\ 0\ and\ randomly\ assigns\ gender\r\n
+comment2.params=
+comment2.target=void\ randAge()
+comment2.text=\r\n\ used\ for\ initial\ river\ setup,\ gives\ fish\ a\ random\ age\ value\ within\ possibility\r\n
+comment3.params=
+comment3.target=void\ ageOneYear()
+comment3.text=\r\n\ advances\ age\ by\ one\ year\r\n
+comment4.params=
+comment4.target=int\ checkType()
+comment4.text=\r\n\ returns\ 1\ to\ represent\ fish\ class\r\n\ @return\ value\ 1\ represents\ status\ Fish\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ returns\ a\ string\ representing\ a\ single\ fish\ object\r\n\ states\ type\ (Fish),\ gender\ (represented\ as\ M/F),\ and\ age\ (followed\ by\ 'CO'\ for\ cycles\ old)\r\n\ @return\ String\ representing\ Fish\ object\r\n
+numComments=6

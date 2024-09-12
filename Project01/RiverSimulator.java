@@ -1,9 +1,13 @@
-package Project1;
+ 
 import java.util.Scanner;
 /*
  * 
  */
 public class RiverSimulator {
+    /**
+     * runs system to simulate river life cycle using River object based on user input
+     * Prints series of statistics at end of runtime to indicate randomness and species strength over runtime
+     */
     public static void main(String[] args){
         int[] riverParam = setup(); //take user input for river parameters
         if(riverParam[0]==1){
@@ -29,7 +33,7 @@ public class RiverSimulator {
     }
     /**
      * takes user input to determine paramters of simulation (run/exit, size, runtime)
-     * @return
+     * @return int array representing user selection values for River build parameters
      */
     private static int[] setup(){
         Scanner scn=new Scanner(System.in);

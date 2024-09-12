@@ -1,4 +1,4 @@
-package Project1;
+ 
 /**
  * represents a parent class to be inherited by animals used by the River class
  */
@@ -14,8 +14,12 @@ public abstract class Animal {
         return age;
     }
     /**
+     * used for initial river setup, gives animal a random age value within possibility
+     */
+    public abstract void randAge();
+    /**
      * returns gender value for called object
-     * @return MALE or FEMALE enum value
+     * @return MALE or FEMALE enum value depending on object gender
      */
     public Gender checkGender(){
         return gender;

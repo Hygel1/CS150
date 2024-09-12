@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=RiverSimulator
+comment0.text=\r\n\ \r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ runs\ system\ to\ simulate\ river\ life\ cycle\ using\ River\ object\ based\ on\ user\ input\r\n\ Prints\ series\ of\ statistics\ at\ end\ of\ runtime\ to\ indicate\ randomness\ and\ species\ strength\ over\ runtime\r\n
+comment2.params=
+comment2.target=int[]\ setup()
+comment2.text=\r\n\ takes\ user\ input\ to\ determine\ paramters\ of\ simulation\ (run/exit,\ size,\ runtime)\r\n\ @return\ int\ array\ representing\ user\ selection\ values\ for\ River\ build\ parameters\r\n
+numComments=3

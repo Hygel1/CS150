@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Animal
+comment0.text=\r\n\ represents\ a\ parent\ class\ to\ be\ inherited\ by\ animals\ used\ by\ the\ River\ class\r\n
+comment1.params=
+comment1.target=int\ checkAge()
+comment1.text=\r\n\ returns\ age\ value\ for\ called\ object\r\n\ @return\ value\ representing\ the\ age\ of\ called\ object\r\n
+comment2.params=
+comment2.target=void\ randAge()
+comment2.text=\r\n\ used\ for\ initial\ river\ setup,\ gives\ animal\ a\ random\ age\ value\ within\ possibility\r\n
+comment3.params=
+comment3.target=Animal.Gender\ checkGender()
+comment3.text=\r\n\ returns\ gender\ value\ for\ called\ object\r\n\ @return\ MALE\ or\ FEMALE\ enum\ value\ depending\ on\ object\ gender\r\n
+comment4.params=
+comment4.target=int\ checkType()
+comment4.text=\r\n\ returns\ either\ 1\ or\ 0\ to\ represent\ the\ called\ object\r\n\ @return\ value\ 1\ for\ fish,\ value\ 0\ for\ bear\r\n
+comment5.params=
+comment5.target=void\ ageOneYear()
+comment5.text=\r\n\ advances\ age\ by\ one\ year\ and\ assigns\ corresponding\ strength\ level\ for\ bear\ object\r\n
+numComments=6

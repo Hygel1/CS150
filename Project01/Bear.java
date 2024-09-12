@@ -1,4 +1,4 @@
-package Project1;
+ 
 /**
  * represents an instance of a Bear animal used by the River class
  */
@@ -14,6 +14,12 @@ public class Bear extends Animal{
         else gender=Gender.FEMALE;
     }
     /**
+     * used for initial river setup, gives bear a random age value within possibility
+     */
+    public void randAge(){
+        age = (int)Math.random()*10;
+    }
+    /**
      * advances age by one year and sets strength level to correspond with incoming age
      */
     public void ageOneYear(){
@@ -23,11 +29,12 @@ public class Bear extends Animal{
     }
     /**
      * return 0 to represent bear class
+     * @return int value 0 represents Bear type
      */
     public int checkType(){return 0;}
     /**
      * returns strength level of individual bear as int
-     * @return called bear's stength level
+     * @return called bear's stength level as int
      */
     public int checkStrength(){ return strength;}
     /**
@@ -36,6 +43,6 @@ public class Bear extends Animal{
      * @return String representing the called Bear object
      */
     public String toString(){
-        return "(Bear "+(gender==Gender.FEMALE?"F ":"M ")+strength+"S "+age+"CO)";
+        return "B"+(gender==Gender.FEMALE?"F":"M")+age;
     }
 }

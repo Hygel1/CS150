@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.target=River
+comment0.text=\r\n\ All\ helper\ methods\ have\ been\ left\ private,\ all\ methods\ required\ for\ a\ single-cycle\ step\ have\ been\ made\ puvlic\ to\ allow\ accessor\ class\ to\ choose\ between\ manual\ control\ and\ auto-run\r\n
+comment1.params=size
+comment1.target=River(int)
+comment1.text=\r\n\ builds\ river\ array\ and\ sets\ inital\ population,\ each\ index\ is\ randomly\ assigned\ 1\ of\ 3\ values\ (new\ fish,\ new\ bear,\ or\ null)\r\n\ @param\ int\ value\ designates\ river\ size\r\n
+comment2.params=
+comment2.target=void\ autoRun()
+comment2.text=\r\n\ runs\ river\ cycling\ until\ river\ is\ found\ to\ be\ fully\ empty\ (advance\ and\ print\ state),\ then\ prints\ full\ stat\ brief\ (male/female\ ratio,\ bear/fish\ ratio)\r\n
+comment3.params=
+comment3.target=void\ advanceYear()
+comment3.text=\r\n\ ages\ all\ animals\ one\ year\ and\ runs\ a\ single\ cycle\ of\ potential\ movement\ for\ all\ animals\ in\ array\r\n
+comment4.params=approaching\ i2
+comment4.target=void\ approaching(int,\ int)
+comment4.text=\r\n\ handles\ interactions\ between\ animals\ during\ the\ movement\ process,\ allows\ for\ fights,\ stalemates,\ and\ breeding\r\n\ \r\n\ @param\ approaching\ index\ of\ moving\ animal\r\n\ @param\ i2\ index\ of\ animal\ being\ approached\r\n
+comment5.params=type
+comment5.target=void\ mate(int)
+comment5.text=\r\n\ searches\ for\ potential\ birthing\ placements\ for\ a\ new\ animal,\ then\ fills\ a\ null\ index\ with\ a\ new\ animal\ cooresponding\ to\ the\ passed\ type\r\n\ \r\n\ @param\ type\ represents\ the\ type\ of\ animal\ to\ be\ birthed,\ 0\=bear,\ 1\=fish\r\n
+comment6.params=
+comment6.target=void\ printRiver()
+comment6.text=\r\n\ Prints\ full\ explanation\ of\ the\ current\ state\ of\ the\ river\ array,\r\n\ represents\ each\ animal\ as\ its\ toString()\ value\ and\ states\ the\ number\ of\ completed\ cycles\r\n
+comment7.params=
+comment7.target=boolean\ gameOver()
+comment7.text=\r\n\ checks\ to\ see\ if\ all\ indices\ in\ the\ river\ are\ null\ (eg\:\ there\ is\ no\ possible\ next\ move\ to\ be\ made)\r\n\ @return\ boolean\ to\ represent\ whether\ or\ not\ the\ simulation\ is\ fully\ exhausted\r\n
+comment8.params=
+comment8.target=int[]\ stats()
+comment8.text=\r\n\ accessor\ method\ for\ all\ stat\ values\ collected\ over\ runtime\r\n\ @return\ integer\ array\ representing\ femaleTracker,\ maleTracker,\ fishTracker,\ bearTracker\r\n
+comment9.params=
+comment9.target=float\ initDiff()
+comment9.text=\r\n\ returns\ float\ value\ representing\ initial\ birthing\ spread\ across\ river\r\n\ @return\ float\ value\ representing\ the\ percentage\ of\ initial\ values\ which\ were\ birthed\ as\ fish\r\n
+numComments=10

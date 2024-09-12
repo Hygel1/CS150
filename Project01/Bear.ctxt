@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Bear
+comment0.text=\r\n\ represents\ an\ instance\ of\ a\ Bear\ animal\ used\ by\ the\ River\ class\r\n
+comment1.params=
+comment1.target=Bear()
+comment1.text=\r\n\ initializes\ Bear\ object,\ sets\ age\ to\ 0,\ strength\ to\ 1,\ and\ randomly\ assigns\ gender\r\n
+comment2.params=
+comment2.target=void\ randAge()
+comment2.text=\r\n\ used\ for\ initial\ river\ setup,\ gives\ bear\ a\ random\ age\ value\ within\ possibility\r\n
+comment3.params=
+comment3.target=void\ ageOneYear()
+comment3.text=\r\n\ advances\ age\ by\ one\ year\ and\ sets\ strength\ level\ to\ correspond\ with\ incoming\ age\r\n
+comment4.params=
+comment4.target=int\ checkType()
+comment4.text=\r\n\ return\ 0\ to\ represent\ bear\ class\r\n\ @return\ int\ value\ 0\ represents\ Bear\ type\r\n
+comment5.params=
+comment5.target=int\ checkStrength()
+comment5.text=\r\n\ returns\ strength\ level\ of\ individual\ bear\ as\ int\r\n\ @return\ called\ bear's\ stength\ level\ as\ int\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ returns\ a\ String\ representing\ a\ single\ Bear\ object\r\n\ includes\ type\ (Bear),\ gender\ (represented\ as\ M/F),\ strength\ level\ (followed\ by\ 'S'),\ and\ age\ (followed\ by\ 'CO'\ for\ cycles\ old)\r\n\ @return\ String\ representing\ the\ called\ Bear\ object\r\n
+numComments=7

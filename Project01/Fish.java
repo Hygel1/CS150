@@ -1,4 +1,4 @@
-package Project1;
+ 
 /**
  * represents an instance of a Fish animal to be used in the River class
  */
@@ -13,6 +13,12 @@ public class Fish extends Animal{
         else gender=Gender.FEMALE;
     }
     /**
+     * used for initial river setup, gives fish a random age value within possibility
+     */
+    public void randAge(){
+        age = (int)Math.random()*6;
+    }
+    /**
      * advances age by one year
      */
     public void ageOneYear(){
@@ -20,6 +26,7 @@ public class Fish extends Animal{
     }
     /**
      * returns 1 to represent fish class
+     * @return value 1 represents status Fish
      */
     public int checkType(){return 1;}
 
@@ -29,6 +36,6 @@ public class Fish extends Animal{
      * @return String representing Fish object
      */
     public String toString(){
-        return "(Fish "+(gender==Gender.FEMALE?"F ":"M ")+age+"CO)";
+        return "F"+(gender==Gender.FEMALE?"F":"M")+age;
     }
 }

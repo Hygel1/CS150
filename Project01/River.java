@@ -1,4 +1,4 @@
-package Project1;
+ 
 /**
  * All helper methods have been left private, all methods required for a single-cycle step have been made puvlic to allow accessor class to choose between manual control and auto-run
  */
@@ -8,6 +8,7 @@ public class River {
     private float initPerc;
     /**
      * builds river array and sets inital population, each index is randomly assigned 1 of 3 values (new fish, new bear, or null)
+     * @param int value designates river size
      */
     public River(int size){
         river = new Animal[size];
@@ -145,9 +146,8 @@ public class River {
      */
     public void printRiver(){
         for(int i=0;i<river.length;i++){
-            System.out.print(river[i]);
-            if(i<river.length-1) System.out.print(", ");
-        }
+            System.out.print((river[i]==null?"---":river[i])+" ");
+            }
         System.out.println(" | Cycle: "+cycleTracker);
     }
     /**
@@ -172,6 +172,10 @@ public class River {
         rtn[3]=bearTracker;
         return rtn;
     }
+    /**
+     * returns float value representing initial birthing spread across river
+     * @return float value representing the percentage of initial values which were birthed as fish
+     */
     public float initDiff(){
         return initPerc;
     }
