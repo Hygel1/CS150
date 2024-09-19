@@ -1,7 +1,21 @@
 package Week3;
 import java.util.Scanner;
-public class palindromeRec {
+public class w3Test<T> {
+public w3Test(){
+    
+}
+
     public static void main(String[] args){
+        //runPal();
+        w3Test<Integer> th = new w3Test<Integer>();
+        System.out.println(new w3TObj().getClass());
+    }
+
+
+
+
+
+    private static void runPal(){
         Scanner scn = new Scanner(System.in);
         System.out.print("Is Palindrome?: ");
         String input=scn.nextLine();

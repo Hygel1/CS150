@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=VIPCustomerReview
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ VIPCustomerReview\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=customer\ latest
+comment1.target=VIPCustomerReview(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ builds\ instance\ of\ CustomerReview\ object,\ setting\ customerReview\ and\ latestReview\ String\ values\r\n\ @param\ customer\ value\ to\ be\ set\ to\ customerReview\ field\r\n\ @param\ latest\ value\ to\ be\ set\ to\ latestReview\ field\r\n
+comment2.params=
+comment2.target=java.lang.String\ getCustomerName()
+comment2.text=\r\n\ returns\ customerName\ as\ String\ value\r\n\ @return\ String\ value\ representing\ customer\ name\r\n
+comment3.params=
+comment3.target=java.lang.String\ getLatestReview()
+comment3.text=\r\n\ returns\ latestReview\ as\ String\ value\r\n\ @return\ String\ value\ representing\ latest\ review\r\n
+comment4.params=review
+comment4.target=boolean\ equals(java.lang.Object)
+comment4.text=\r\n\ returns\ true\ when\ passed\ object\ is\ of\ same\ type\ and\ holds\ same\ customerName\ value\r\n\ @param\ review\ object\ to\ be\ tested\ for\ equality\r\n\ @return\ boolean\ representing\ the\ equality\ of\ host\ and\ passed\ object\r\n
+comment5.params=
+comment5.target=int\ hashCode()
+comment5.text=\r\n\ returns\ hashcode\ value\ of\ customer\ name\r\n\ @return\ hash\ code\ value\ representing\ the\ hash\ code\ of\ the\ customerName\ String\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ returns\ String\ representing\ review\ object\ in\ format\ Name\:\ customerName\ Review\:\ latestReview\r\n\ @return\ String\ value\ representing\ the\ customerName\ and\ latestReview\r\n
+numComments=7

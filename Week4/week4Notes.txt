@@ -1,0 +1,16 @@
+Big O
+    - operation to define time complexity
+    - linearity is often the base case of big O (the easy time complexity value that should be used as a bare minimum)
+    linearity
+        Big O is generally considered linear if making constants become coefficients results in a higher time complexity?
+            T(n) = 10n + 17
+            10n + 17 <= 10n + 17n
+            10n + 17 <= 27n
+            C = 27, N = 0
+    Big-O = big order
+        we say that T(n) is O(f(n)) for some function f(n) if we can find N and C such that T(n)<=C*f(n) and all n>N 
+        linear time is the same as O(n)
+            other common values are O(1), O(log n), O(n*log n), O(n^2)
+        estimates can be sloppy, vaules that don't have massive effect can be ommitted
+        big O is the same for all computers, independent of architecture detail
+        

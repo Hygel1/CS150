@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=CustomerReviewTest
+comment0.text=\r\n\ The\ test\ class\ CustomerReviewTest.\r\n\r\n\ @author\ \ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=CustomerReviewTest()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ CustomerReviewTest\r\n
+comment2.params=
+comment2.target=void\ testGetName()
+comment2.text=\r\n\ tests\ getCustomerName\ function\ by\ defining\ an\ instance\ of\ CustomerReview\ and\ checking\ against\ given\ parameters\r\n
+comment3.params=
+comment3.target=void\ testGetReview()
+comment3.text=\r\n\ tests\ getLatestReview\ function\ by\ defining\ an\ instance\ of\ CustomerReview\ and\ checking\ against\ given\ parameters\r\n
+comment4.params=
+comment4.target=void\ testEquals()
+comment4.text=\r\n\ tests\ equals\ function\ by\ defining\ an\ instance\ of\ CustomerReview\ and\ checking\ against\ other\ instances\ of\ CustomerReview\ and\ VIPCustomerReview\r\n
+comment5.params=
+comment5.target=void\ testHashCode()
+comment5.text=\r\n\ tests\ hashCode\ function\ by\ defining\ an\ instance\ of\ CustomerReview\ and\ checking\ against\ other\ instances\ of\ CustomerReview\ and\ VIPCustomerReview\r\n
+comment6.params=
+comment6.target=void\ testString()
+comment6.text=\r\n\ tests\ toString\ method\ by\ defining\ a\ CustomerReview\ instance\ and\ checking\ toString\ result\ against\ expected\ returned\ String\ value\r\n
+numComments=7

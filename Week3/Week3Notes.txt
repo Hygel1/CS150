@@ -1,0 +1,28 @@
+recursion functions call themselves with modified parameters to implement reeated steps at smaller scales until there is no more operation to be done and a "base case" can be reached
+    - when the base case is reached there is generally either a single value or simple operation that calculates a value which is then bounced back up the call stack to return a value to the initial call
+    - recursion often works off of the principle of short circuit via return statements, where the method stops executing code after a reached return statement
+    - in many cases, recursion results in several repeated operations, but it is often an efficient, streamlined way of writing code (both can be true)
+    - a traced recursion diagram often looks like a tree if there are multiple recursive calls in each method result
+    - can replace many lines of code with very few lines very easily
+        - this does NOT always mean that there is less operation being done, this just means that there is more repetition
+        - runtime will often grow exponentially
+linkedlist
+    - each index stores a value and the address of the next value, which means that we can avoid the issue of having to resize and copy values when a list is given more values than it can hold (think array list resize)
+    - makes get and set slow, since finding any specific index's address requires traversing through the entire list, but remove and addIndex are very fast, since there is no shifting (requires only changing max 2 next addres values)
+hash set
+    - array holds some sort of list at each index
+    - each value being stored is given a hash code that represents its value but does not reveal it
+        - equal objects should be given equal codes
+        - when we implement our own equals() method overriding the default, we should also implement our own hashCode() function, given that the default hashCode() fucntion is designed to work with default equals() methods
+    - hashCode design
+        - the hash function should implement a design made specifically for the use case, since it needs to be able to understand the values
+        - generally the hash value of an object should be made up of only what is used in the equals function for that object
+        - hash values should be complex enough to avoid reverse engineering and avoid collision when different values are added (two different values should not be able to have the same hash code, this would destroy the hashing system)
+    - overriding equals()
+        - equals is generally a parent function passed down from the object class, designed to compare objects, not specific classes
+            - in most cases, this is able to be handled by the default equals() by type checking, then casting
+            - since we have to override the default equals class, the overriding equals function should take an "object" type parameter as well
+                - while this makes it seems complicated, it just means that "retyping" is necessary before comparison
+        - getClass() returns the class type of a given object, but does not work properly with polymorphism
+            - eg. if I want to compare vehicles, and I pass a truck object (child class of vehicle) getClass() will tell me that the object is a truck, not a vehicle
+            

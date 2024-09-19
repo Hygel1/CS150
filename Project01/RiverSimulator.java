@@ -53,11 +53,19 @@ public class RiverSimulator {
             rtn[1]=-1;
             while(rtn[1]<1){
                 System.out.println("Enter River Size (positive integer):");
+                String res=scn.nextLine();
                 try{
-                    rtn[1]=Integer.parseInt(scn.nextLine()); //parseInt to avoid endless loop if given a non-number character
+                    rtn[1]=Integer.parseInt(res); //parseInt to avoid endless loop if given a non-number character
                 }
-                catch(Exception e){rtn[1]=-1;}
-            }
+                catch(NumberFormatException e){
+                    if(res.equals("all")){
+                        rtn[1]=Integer.MAX_VALUE;
+                        System.out.println(Integer.MAX_VALUE);
+                    }
+                } 
+                }
+                
+        }
             rtn[2]=-1;
             while(rtn[2]<1){
                 String res;
@@ -69,7 +77,6 @@ public class RiverSimulator {
                     if(res.equals("all")) break; //type 'all' to consider all cycles until all spaces are null
                 }
             }
-        }
         scn.close();
         return rtn;
     }
