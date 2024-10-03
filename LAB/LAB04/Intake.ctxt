@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Intake
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ takes\ in\ 2\ files\ of\ text,\ parses\ contents\ into\ individual\ words,\ builds\ a\ WordList\ from\ words,\ then\ prints\ words\ to\ file\r\n
+numComments=2
