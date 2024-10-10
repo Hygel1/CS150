@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=WordList
+comment1.params=stopWords\ tokens
+comment1.target=WordList(java.util.ArrayList,\ java.util.ArrayList)
+comment1.text=\r\n\ builds\ new\ WordList\ object\ and\ builds\ initial\ list\ value,\ representing\ all\ words\ aside\ from\ stop\ words\ and\ handling\ duplicates\r\n
+comment2.params=
+comment2.target=java.util.ArrayList\ getWordFrequency()
+comment2.text=\r\n\ returns\ copy\ of\ list\ representing\ words\r\n\ @return\ copy\ of\ word\ list\r\n
+comment3.params=w
+comment3.target=int\ search(java.lang.String)
+comment3.text=\r\n\ searches\ list\ to\ find\ instance\ of\ word\ representing\ passed\ String,\ returns\ -1\ if\ none\ found\r\n\ @param\ w\ String\ value\ representing\ value\ to\ be\ searched\ for\ in\ list\r\n\ @return\ index\ value\ of\ found\ Object\ representing\ the\ passed\ String,\ returns\ -1\ for\ unfound\ instance\r\n
+comment4.params=
+comment4.target=Word\ getMostFrequent()
+comment4.text=\r\n\ finds\ and\ returns\ more\ frequently\ occured\ value\r\n\ @return\ most\ frequently\ occured\ value\r\n
+comment5.params=k
+comment5.target=Word[]\ topKMostFrequent(int)
+comment5.text=\r\n\ finds\ and\ returns\ the\ top\ k\ most\ occured\ values\r\n\ @param\ k\ int\ value\ representing\ the\ number\ of\ values\ to\ find\r\n\ @return\ Word\ array\ representing\ the\ top\ k\ most\ occured\ values\r\n
+comment6.params=word\ stopWords
+comment6.target=java.lang.Boolean\ isStopWord(java.lang.String,\ java.util.ArrayList)
+comment6.text=\r\n\ searches\ passed\ stopWords\ list\ to\ determine\ whether\ passed\ word\ is\ a\ stopWord\r\n\ @param\ word\ String\ value\ representing\ word\ to\ consider\r\n\ @param\ stopWords\ list\ representing\ the\ stop\ word\ list\ to\ be\ scanned\r\n\ @return\ boolean\ value\ representing\ whether\ the\ word\ was\ found\ to\ be\ a\ stop\ word\r\n
+numComments=7

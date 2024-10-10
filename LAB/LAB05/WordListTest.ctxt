@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=WordListTest
+comment0.text=\r\n\ tests\ WordList\ class\ for\ errors\r\n\r\n\ @author\ \ Sean\ McLoughlin\r\n\ @version\ 9/24/24\r\n
+comment1.params=
+comment1.target=WordListTest()
+comment2.params=
+comment2.target=void\ testGetWordFrequency()
+comment2.text=\r\n\ performs\ unit\ test\ for\ getWordFrequency\ by\ comparing\ the\ output\ fo\ two\ identical\ lists\ built\ in\ different\ orders\r\n
+comment3.params=
+comment3.target=void\ testSearch()
+comment3.text=\r\n\ performs\ unit\ test\ for\ search\ by\ finding\ the\ index\ of\ a\ given\ word\ in\ a\ wordList\r\n
+comment4.params=
+comment4.target=void\ testGetMostFrequent()
+comment4.text=\r\n\ performs\ unit\ test\ for\ getMostFrequent\ by\ comparing\ returned\ value\ against\ known\ values\ for\ specific\ lists\r\n
+comment5.params=
+comment5.target=void\ testTopK()
+comment5.text=\r\n\ performs\ unit\ test\ for\ topKMostFrequent\ by\ comparing\ returned\ array\ against\ known\ top\ K\ most\ frequent\ values\r\n
+numComments=6

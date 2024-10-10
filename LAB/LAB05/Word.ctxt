@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Word
+comment0.text=\r\n\ handles\ processing\ of\ a\ single\ word,\ holds\ String\ representation\ of\ Word\ and\ number\ of\ times\ the\ word\ has\ been\ encountered\r\n\r\n\ @author\ Sean\ McLoughlin\ \ \r\n\ @version\ 9/24/24\r\n
+comment1.params=val
+comment1.target=Word(java.lang.String)
+comment1.text=\r\n\ builds\ new\ word\ object\ with\ passed\ word\ value\ and\ initial\ frequency\ 1\r\n\ @param\ String\ value\ representing\ the\ word\ represented\ by\ the\ class\r\n
+comment2.params=w
+comment2.target=int\ compareTo(Word)
+comment2.text=\r\n\ compares\ the\ frequencies\ of\ two\ words\ in\ format\ calling-passed\r\n\ @param\ w\ represents\ the\ Word\ value\ to\ be\ passed\ and\ compared\r\n\ @return\ int\ value\ representing\ neg.\ if\ the\ calling\ object\ is\ less\ frequent\ than\ the\ passed,\ pos.\ if\ greater,\ and\ 0\ if\ equal\r\n
+comment3.params=
+comment3.target=java.lang.String\ getWord()
+comment3.text=\r\n\ returns\ value\ stored\ as\ word\ to\ be\ represented\r\n\ @return\ word\ value\ represented\ by\ object\r\n
+comment4.params=
+comment4.target=int\ getFrequency()
+comment4.text=\r\n\ returns\ the\ number\ of\ times\ a\ word\ object\ has\ been\ found\ via\ a\ counter\r\n\ @return\ number\ of\ times\ a\ word\ has\ been\ found\ in\ the\ document\r\n
+comment5.params=
+comment5.target=void\ incr()
+comment5.text=\r\n\ increments\ frequency\ counter,\ called\ on\ instance\ of\ found\ word\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ represents\ word\ and\ frequency\ as\ readable\ String\ value\r\n\ @return\ String\ value\ representing\ word\ value\ and\ frequency\ value\r\n
+numComments=7

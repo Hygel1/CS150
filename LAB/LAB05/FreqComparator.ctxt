@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=FreqComparator
+comment1.params=w1\ w2
+comment1.target=int\ compare(Word,\ Word)
+comment1.text=\r\n\ compares\ 2\ Word\ objects\ based\ solely\ on\ frequency\ using\ Word\ object\ compareTo\ method\r\n\ @param\ w1\ Word\ object\ to\ be\ compared\r\n\ @param\ w2\ Word\ object\ to\ be\ compared\ against\ w1\r\n\ @return\ return\ value\ determined\ by\ comparing\ ferquency\ values\r\n
+numComments=2

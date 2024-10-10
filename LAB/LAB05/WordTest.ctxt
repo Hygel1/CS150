@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=WordTest
+comment0.text=\r\n\ tests\ Word\ class\ for\ errors\r\n\r\n\ @author\ \ Sean\ McLoughlin\r\n\ @version\ 9/24/24\r\n
+comment1.params=
+comment1.target=void\ testGetWord()
+comment1.text=\r\n\ performs\ unit\ test\ for\ getWord\ method\ by\ testing\ against\ known\ values\r\n
+comment2.params=
+comment2.target=void\ testFrequency()
+comment2.text=\r\n\ performs\ unit\ test\ for\ getFrequency\ method\ by\ testing\ returned\ value\ against\ known\ frequency\ values\r\n
+comment3.params=
+comment3.target=void\ testIncr()
+comment3.text=\r\n\ performs\ unit\ test\ for\ incr\ by\ testing\ that\ incrmentation\ is\ taking\ place\ when\ method\ is\ called\ using\ getFrequency\ method\r\n
+comment4.params=
+comment4.target=void\ testToString()
+comment4.text=\r\n\ performs\ unit\ test\ for\ toString\ method\ by\ comparing\ returned\ value\ against\ predicted\ values\r\n
+comment5.params=
+comment5.target=void\ testCompare()
+comment5.text=\r\n\ performs\ unit\ test\ for\ compareTo\ by\ comparing\ several\ known\ values\ of\ different\ words\r\n
+numComments=6

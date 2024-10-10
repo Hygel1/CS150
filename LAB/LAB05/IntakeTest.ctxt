@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=IntakeTest
+comment0.text=\r\n\ The\ test\ class\ IntakeTest.\r\n\r\n\ @author\ \ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=java.util.ArrayList\ initList()
+comment2.params=
+comment2.target=void\ testBubbleSort()
+comment2.text=\r\n\ performs\ unit\ test\ for\ bubbleSort\ by\ comparing\ to\ true\ sorted\ list\ elements\r\n
+comment3.params=
+comment3.target=void\ testSelectionSort()
+comment3.text=\r\n\ performs\ unit\ test\ for\ selectionSort\ by\ comparing\ to\ true\ sorted\ list\ elements\r\n
+comment4.params=
+comment4.target=void\ testInsertionSort()
+comment4.text=\r\n\ performs\ unit\ test\ for\ insertionSort\ by\ comparing\ to\ true\ sorted\ list\ elements\r\n
+numComments=5

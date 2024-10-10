@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=WordComparator
+comment0.text=\r\n\ compares\ 2\ words\ based\ on\ length\ (in\ descending\ order),\ then\ frequency\ (in\ descending\ order)\ if\ equal\ length,\r\n\ then\ lexicographic\ value\ (in\ ascending\ order)\ if\ equal\ frequency\r\n\ @param\ w1\ Word\ object\ to\ be\ compared\r\n\ @param\ w2\ Word\ object\ to\ be\ compared\ against\ w1\r\n\ @return\ int\ value\ representing\ final\ determined\ compare\ value\ of\ the\ 2\ Word\ objects\r\n
+comment1.params=w1\ w2
+comment1.target=int\ compare(Word,\ Word)
+numComments=2
