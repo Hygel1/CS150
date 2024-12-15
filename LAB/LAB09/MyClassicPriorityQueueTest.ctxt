@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MyClassicPriorityQueueTest
+comment0.text=\r\n\ The\ test\ class\ MyClassicPriorityQueueTest.\r\n\r\n\ @author\ \ Sean\ Mcloughlin\r\n\ @version\ 12/5/24\r\n
+comment1.params=
+comment1.target=void\ addTest()
+comment1.text=\r\n\ tests\ add\ method\ by\ building\ list\ and\ comparing\ values\ at\ selected\ indices\ to\ expected\ values\r\n
+comment2.params=
+comment2.target=void\ decreaseTest()
+comment2.text=\r\n\ tests\ decreaseValue\ method\ by\ calling\ method\ on\ values\ and\ comparing\ list\ state\ to\ expected\ state\r\n
+comment3.params=
+comment3.target=void\ pollTest()
+comment3.text=\r\n\ tests\ poll\ method\ by\ building\ queue\ and\ comparing\ returned\ values\ to\ expected\ values\r\n
+numComments=4

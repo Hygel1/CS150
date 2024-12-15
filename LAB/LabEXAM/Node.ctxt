@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Node
+comment0.text=\r\n\ Individual\ nodes\ to\ be\ contained\ as\ values\ in\ SnobbyLinkedList\r\n\r\n\ @author\ Sean\ McLoughlin\r\n\ @version\ 10/24/2024\r\n
+comment1.params=val
+comment1.target=Node(java.lang.Object)
+comment2.params=node
+comment2.target=void\ setNext(Node)
+comment2.text=\r\n\ sets\ Next\ value\r\n\ @param\ node\ Node\ type\ object\ representing\ Node\ to\ be\ set\ to\ Next\ value\r\n
+comment3.params=
+comment3.target=boolean\ hasNext()
+comment3.text=\r\n\ returns\ true\ if\ there\ exists\ a\ Next\ node\ to\ current\ Node\r\n\ @return\ boolean\ value\ representing\ whether\ there\ exists\ a\ next\ Node\ for\ the\ current\ Node\r\n
+comment4.params=
+comment4.target=java.lang.Object\ getVal()
+comment4.text=\r\n\ returns\ value\ contained\ in\ current\ node\r\n\ @return\ E\ type\ object\ representing\ value\ contained\ in\ current\ Node\r\n
+comment5.params=n
+comment5.target=java.lang.Object\ addToBack(Node)
+comment5.text=\r\n\ adds\ node\ to\ back\ of\ list\ and\ returns\ value\ contained\ in\ the\ added\ node.\ If\ the\ value\ contained\ in\ the\ passed\ node\ already\ exists\ in\ the\ list,\ returns\ null\ and\ doesn't\ add\ to\ list\r\n\ @param\ n\ Node\ value\ to\ be\ appended\ to\ list\r\n\ @return\ E\ type\ object\ contained\ in\ appended\ Node\ (returns\ null\ if\ value\ is\ already\ contained\ in\ list)\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ assists\ in\ recursively\ creating\ String\ representation\ of\ full\ list\r\n\ starting\ from\ the\ initial\ call,\ this\ will\ output\ a\ comma\ separated\ version\ of\ the\ String\ representation\ of\ every\ value\r\n\ @return\ String\ representation\ of\ current\ Node's\ part\ in\ the\ full\ output\ of\ the\ list's\ String\ representation\r\n
+numComments=7

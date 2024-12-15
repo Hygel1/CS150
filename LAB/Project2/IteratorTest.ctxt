@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=IteratorTest
+comment0.text=\r\n\ Tests\ methods\ found\ in\ Iterator\ class,\ omits\ testing\ for\ methods\ which\ only\ pass\ to\ a\ method\ of\ another\ class\r\n\r\n\ @author\ \ Sean\ McLoughlin\r\n\ @version\ 10/29/2024\r\n
+comment1.params=
+comment1.target=void\ testSetPointer()
+comment1.text=\r\n\ performs\ unit\ test\ for\ setPointer\ by\ settign\ pointer\ value\ and\ calling\ previous\ index\ (this\ is\ an\ exploitation\ of\ both\ methods,\ but\ breaks\ no\ technical\ rules\r\n
+comment2.params=
+comment2.target=void\ testNextPrevious()
+comment2.text=\r\n\ performs\ unit\ test\ for\ next\ and\ previous\ by\ traversing\ through\ list\ using\ operators\r\n
+comment3.params=
+comment3.target=void\ testHasNextPrevious()
+comment3.text=\r\n\ performs\ unit\ test\ for\ has\ next\ previous\ by\ traversing\ list\ and\ testing\ known\ values\r\n
+comment4.params=
+comment4.target=void\ testIndices()
+comment4.text=\r\n\ performs\ unit\ test\ for\ next/previous\ index\ by\ traversing\ list\ and\ testing\ known\ values\r\n
+numComments=5

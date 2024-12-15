@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=BinarySearchTree
+comment0.text=\r\n\ Binary\ tree\ containing\ nodes\ placed\ in\ order\ and\ inserted\ according\ to\ binary\ tree\ insert\ rules\ (less\ than\ moves\ left,\ more\ than\ moves\ right)\r\n\r\n\ @author\ Sean\ McLoughlin\r\n\ @version\ 11/19/24\r\n
+comment1.params=e
+comment1.target=BinarySearchTree(BinaryNode)
+comment1.text=\r\n\ builds\ new\ BinarySearchTree\ object\ with\ initial\ value\ as\ root\ node\r\n
+comment2.params=e
+comment2.target=boolean\ insert(java.lang.Comparable)
+comment2.text=\r\n\ inserts\ value\ into\ tree\ by\ building\ a\ node\ to\ represent\ it\ and\ moving\ through\ tree\ to\ find\ a\ valid\ empty\ child\ spot\r\n\ values\ can\ only\ be\ added\ to\ tree\ is\ they\ are\ not\ already\ represented\ in\ the\ tree\r\n\ @param\ e\ E\ type\ object\ representing\ value\ to\ be\ added\ to\ tree\r\n\ @return\ boolean\ type\ object\ representing\ whether\ or\ not\ the\ insertion\ was\ successful\r\n
+comment3.params=e
+comment3.target=boolean\ contains(java.lang.Comparable)
+comment3.text=\r\n\ determines\ whether\ the\ passed\ value\ is\ already\ present\ in\ the\ BinarySearchTree,\ taking\ advantage\ of\ the\ tree's\ contstantly\ sorted\ state\ to\ more\ efficiently\ search\ the\ tree\r\n\ @param\ e\ E\ type\ object\ to\ be\ searched\ for\ in\ the\ tree\r\n\ @return\ boolean\ value\ representing\ whether\ the\ value\ already\ exists\ in\ the\ tree\r\n
+comment4.params=val\ n
+comment4.target=boolean\ containsHelper(java.lang.Comparable,\ BinaryNode)
+comment4.text=\r\n\ private\ helper\ method\ to\ help\ determine\ whether\ a\ value\ exists\ in\ the\ tree\ or\ not,\ taking\ advantake\ of\ the\ constantly\ sorted\ state\ of\ the\ BinarySearchTree\r\n\ @param\ val\ E\ type\ object\ representing\ value\ ot\ be\ searched\ for\r\n\ @pararm\ n\ BinaryNode\ type\ ojbect\ representing\ current\ node\ being\ searched\r\n\ @return\ boolean\ value\ representing\ whether\ the\ value\ exists\ in\ the\ tree\r\n
+comment5.params=n\ insert
+comment5.target=void\ insertHelper(BinaryNode,\ BinaryNode)
+comment5.text=\r\n\ private\ helper\ method\ to\ aid\ insertion\ into\ the\ binary\ search\ tree,\ moves\ through\ tree\ until\ an\ empty\ child\ in\ a\ valid\ position\ is\ found\r\n\ @param\ n\ BinaryNode\ object\ representing\ current\ node\ to\ be\ checked\r\n\ @param\ insert\ BinaryNode\ object\ representing\ node\ to\ be\ inserted\r\n
+numComments=6

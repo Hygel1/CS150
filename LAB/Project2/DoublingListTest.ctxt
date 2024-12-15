@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=DoublingListTest
+comment0.text=\r\n\ Tests\ methods\ found\ in\ DoublingList\ class\r\n\r\n\ @author\ \ Sean\ McLoughlin\r\n\ @version\ 10/29/24\r\n
+comment1.params=
+comment1.target=void\ testAdd()
+comment1.text=\r\n\ performs\ unit\ test\ for\ add\ by\ adding\ values\ to\ a\ list\ and\ testing\ samples\ against\ predicted\ values\r\n
+comment2.params=
+comment2.target=void\ testRemove()
+comment2.text=\r\n\ performs\ unit\ test\ for\ remove\ by\ removing\ values\ to\ a\ list\ and\ testing\ samples\ against\ predicted\ values\r\n
+numComments=3

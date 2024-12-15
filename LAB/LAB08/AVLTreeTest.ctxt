@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=AVLTreeTest
+comment0.text=\r\n\ Tests\ AVLTree\ class\ by\ comparing\ returned\ values\ to\ expected\ values\r\n\r\n\ @author\ \ Sean\ McLoughlin\r\n\ @version\ 11/19/24\r\n
+comment1.params=
+comment1.target=void\ insertTest()
+comment1.text=\r\n\ performs\ unit\ test\ for\ insert\ by\ testing\ balance\ factor\ of\ built\ trees\r\n\ this\ unit\ test\ is\ more\ so\ a\ test\ of\ the\ balance\ function\ rather\ than\ the\ insert\ function\r\n\ since\ the\ insertion\ element\ of\ the\ method\ is\ efectively\ the\ same\ as\ what\ is\ implicly\ tested\ in\r\n\ the\ BinarySearchTreeTest\ class\r\n
+numComments=2

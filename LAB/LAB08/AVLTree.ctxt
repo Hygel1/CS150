@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=AVLTree
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ AVLTree\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=e
+comment1.target=AVLTree(AVLNode)
+comment1.text=\r\n\ AVLTree\ constructor\ defining\ a\ root\ node\r\n\ @param\ e\ AVLNode\ type\ object\ defining\ the\ root\ node\ to\ be\ defined\r\n
+comment2.params=e
+comment2.target=boolean\ insert(java.lang.Comparable)
+comment2.text=\r\n\ inserts\ node\ into\ tree\ and\ performs\ a\ balancing\ operation\ to\ keep\ tree\ sides\ within\ 1\ node\ of\ each\ other\ in\ height,\ protects\ against\ duplicates\ by\ rejecting\ values\ which\ are\ already\ in\ the\ tree\r\n\ @param\ e\ E\ type\ value\ representing\ value\ to\ be\ added\ to\ the\ tree\r\n\ @return\ boolean\ type\ value\ representing\ whether\ the\ value\ was\ successfully\ added\ to\ the\ tree\r\n
+comment3.params=n\ insert
+comment3.target=void\ insertHelper(BinaryNode,\ java.lang.Comparable)
+comment3.text=\r\n\ private\ helper\ method\ to\ aid\ insertion\ into\ the\ binary\ search\ tree,\ moves\ through\ tree\ until\ an\ empty\ child\ in\ a\ valid\ position\ is\ found\r\n\ @param\ n\ BinaryNode\ object\ representing\ current\ node\ to\ be\ checked\r\n\ @param\ insert\ E\ type\ object\ representing\ value\ to\ be\ inserted\r\n
+comment4.params=curr
+comment4.target=int\ findHeight(BinaryNode)
+comment4.text=\r\n\ recursively\ finds\ height\ a\ a\ given\ node\ by\ traversing\ through\ all\ nodes\ and\ tallying,\ then\ choosing\ the\ largest\ value\r\n\ the\ minimum\ height\ for\ a\ node\ in\ a\ tree\ is\ 0.\ null\ nodes\ will\ return\ -1\ as\ they\ have\ no\ valid\ height\ value\r\n\ @param\ curr\ BinaryNode\ type\ object\ representing\ the\ node\ currently\ being\ examined\r\n\ @return\ int\ value\ representing\ the\ height\ of\ a\ given\ node\r\n
+comment5.params=n
+comment5.target=int\ getBalanceFactor(AVLNode)
+comment5.text=\r\n\ recursively\ finds\ the\ balance\ factor\ of\ a\ given\ node,\ (height\ depending\ on\ right\ child\ -\ height\ depending\ on\ left\ child)\r\n\ @param\ n\ AVLNode\ type\ object\ representing\ the\ node\ to\ be\ checked\ for\ balance\ factor\r\n\ @return\ int\ type\ value\ representing\ the\ determined\ balance\ factor\r\n
+comment6.params=n
+comment6.target=boolean\ balance(AVLNode)
+comment6.text=\r\n\ recursively\ balances\ tree\ from\ AVLNode\ n\ down\ using\ left\ and\ right\ rotations\r\n\ @param\ n\ AVLNode\ type\ object\ representing\ the\ pivot\ node\ for\ a\ specific\ balance\ operation\r\n\ @return\ boolean\ type\ value\ representing\ whether\ the\ balance\ was\ successful\ (should\ always\ return\ true)\r\n
+comment7.params=
+comment7.target=AVLNode\ getRoot()
+comment7.text=\r\n\ public\ accessor\ method\ for\ AVLTree\ root\ node\r\n\ @return\ AVLNode\ object\ representing\ root\ node\ of\ current\ tree\r\n
+numComments=8

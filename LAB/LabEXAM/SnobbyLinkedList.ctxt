@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=SnobbyLinkedList
+comment0.text=\r\n\ LinkedList\ containing\ toString\ and\ addToBack\ methods,\ uses\ Node\ class\ to\ represent\ each\ index\r\n\r\n\ @author\ Sean\ McLoughlin\r\n\ @version\ 10/24/2024\r\n
+comment1.params=
+comment1.target=SnobbyLinkedList()
+comment2.params=n
+comment2.target=java.lang.Object\ addToBack(Node)
+comment2.text=\r\n\ appends\ Node\ value\ to\ back\ of\ list\ headed\ by\ init\ node\ (omits\ if\ value\ is\ already\ represented\ in\ list)\r\n\ if\ the\ list\ contains\ 0\ values\ (init\=null)\ the\ passed\ node\ will\ become\ the\ list\ header\r\n\ @param\ N\ Node\ type\ object\ to\ be\ potentially\ appended\ to\ back\ of\ list\r\n\ @return\ E\ type\ object\ representing\ object\ added\ (null\ if\ the\ object\ has\ already\ been\ represented\ in\ the\ list)\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ returns\ a\ comma\ separated\ readable\ representation\ of\ the\ full\ list\r\n\ @return\ readable\ representation\ of\ lsit\ beginning\ at\ init\ node\r\n
+numComments=4

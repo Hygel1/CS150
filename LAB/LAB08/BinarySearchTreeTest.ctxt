@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=BinarySearchTreeTest
+comment0.text=\r\n\ Tests\ BinarySearchTree\ class\ by\ comparing\ returned\ values\ to\ expected\ values\r\n\r\n\ @author\ \ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ containsTest()
+comment1.text=\r\n\ performs\ unit\ test\ for\ contains\ by\ testing\ method\ return\ values\ against\ known\ values\r\n
+comment2.params=
+comment2.target=void\ preOrderTest()
+comment2.text=\r\n\ performs\ unit\ test\ for\ preOrderString\ by\ testing\ method\ return\ values\ against\ expected\ String\ value\r\n
+comment3.params=
+comment3.target=void\ postOrderTest()
+comment3.text=\r\n\ performs\ unit\ test\ for\ postOrderString\ by\ testing\ method\ return\ values\ against\ expected\ String\ values\r\n
+comment4.params=
+comment4.target=void\ inOrderTest()
+comment4.text=\r\n\ performs\ unit\ test\ for\ inOrderString\ by\ testing\ method\ return\ values\ against\ expected\ String\ values\r\n
+comment5.params=
+comment5.target=void\ emptyIsEmptyTest()
+comment5.text=\r\n\ performs\ unit\ test\ for\ isEmpty\ by\ testing\ method\ return\ values\ against\ known\ values\r\n\ performs\ unit\ test\ for\ empty\ by\ emptying\ tree\ and\ testing\ whether\ the\ tree\ was\ actually\ emptied\r\n
+numComments=6

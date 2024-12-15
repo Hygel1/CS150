@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=SortableNodeTest
+comment0.text=\r\n\ The\ test\ class\ SortableNodeTest.\r\n\r\n\ @author\ \ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ testConsstructor1()
+comment1.text=\r\n\ tests\ first\ constructor\ by\ building\ Node\ object\ and\ comparing\ values\ to\ expected\ values\r\n
+comment2.params=
+comment2.target=void\ testConsstructor2()
+comment2.text=\r\n\ tests\ second\ constructor\ by\ building\ Node\ object\ and\ comparing\ values\ to\ expected\ values\r\n
+comment3.params=
+comment3.target=void\ testConsstructor3()
+comment3.text=\r\n\ tests\ third\ constructor\ by\ building\ Node\ objects\ and\ comparing\ values\ to\ expected\ values\r\n
+comment4.params=
+comment4.target=void\ testPartition()
+comment4.text=\r\n\ tests\ partition\ method\ by\ calling\ method\ and\ comparing\ against\ expected\ values\r\n
+numComments=5

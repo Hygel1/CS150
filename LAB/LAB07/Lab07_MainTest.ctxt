@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Lab07_MainTest
+comment0.text=\r\n\ The\ test\ class\ Lab07_MainTest.\r\n\r\n\ @author\ \ Sean\ McLoughlin\r\n\ @version\ 11/12/24\r\n
+comment1.params=
+comment1.target=void\ evaluatePostfixTest()
+comment1.text=\r\n\ performs\ unit\ test\ for\ evaluatePostfix\ by\ testing\ method\ return\ values\ against\ known\ values\r\n
+comment2.params=
+comment2.target=void\ simpleInfixTest()
+comment2.text=\r\n\ performs\ unit\ test\ for\ simpleInfixTest\ by\ testing\ method\ return\ values\ against\ known\ values\r\n
+comment3.params=
+comment3.target=void\ infixToPostfixTest()
+comment3.text=\r\n\ performs\ unit\ test\ for\ infixToPostfix\ by\ testing\ method\ return\ values\ against\ known\ values\r\n
+comment4.params=
+comment4.target=void\ evaluateInfixTest()
+comment4.text=\r\n\ performs\ unit\ test\ for\ evaluateInfix\ by\ testing\ method\ return\ values\ against\ known\ values\r\n
+numComments=5

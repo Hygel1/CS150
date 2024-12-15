@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Lab07_Main
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ takes\ user\ input\ to\ read\ file\ with\ infix-notation\ equations\ on\ each\ line,\ prints\ evaluation\ of\ equations\ on\ corresponding\ lines\ in\ file\ at\ path\ designated\ by\ user\r\n
+comment2.params=vals\ start\ end\ numTimes
+comment2.target=void\ pushBack(java.lang.String[],\ int,\ int,\ int)
+comment2.text=\r\n\ push\ values\ in\ array\ back\ one\ index,\ implicitly\ removes\ numTimes\ amount\ of\ values\ beginning\ at\ start\ index\r\n\ array\ is\ returned\ via\ the\ array\ param\ being\ a\ reference\r\n\ @param\ vals\ initial\ String\ array\ to\ be\ modified\r\n\ @param\ start\ int\ type\ value\ representing\ index\ to\ begin\ at\r\n\ @param\ end\ int\ type\ value\ representing\ final\ used\ index\ in\ array\r\n\ @param\ numTimes\ number\ of\ times\ to\ perform\ operation\r\n
+comment3.params=str
+comment3.target=int\ evaluatePostfix(java.lang.String)
+comment3.text=\r\n\ takes\ postfix-notation\ equation\ in\ string\ form\ (space\ separated)\ and\ returns\ the\ of\ the\ evaluated\ equation\r\n\ @param\ str\ String\ type\ object\ representing\ equation\ to\ be\ solved\r\n\ @return\ int\ value\ representing\ fully\ evaluated\ value\r\n
+comment4.params=val
+comment4.target=java.lang.String\ simpleInfixToPostfix(java.lang.String)
+comment4.text=\r\n\ takes\ String\ value\ representing\ infix-notation\ equation\ and\ converts\ to\ postfix-notation\ equation\r\n\ @param\ val\ String\ type\ object\ designating\ infix-notation\ equation\ to\ be\ converted\r\n\ @return\ String\ type\ value\ representing\ inputted\ equation\ in\ postfix\ form\r\n
+comment5.params=val
+comment5.target=java.lang.String\ infixToPostfix(java.lang.String)
+comment5.text=\r\n\ takes\ in\ infix-notation\ equation\ and\ moves\ through\ to\ format\ as\ postfix\r\n\ @param\ val\ String\ type\ value\ representing\ initial\ infix-type\ equation\r\n\ @return\ String\ type\ value\ representing\ postfix\ representation\ of\ inputted\ equation\r\n
+comment6.params=str
+comment6.target=int\ evaluateInfix(java.lang.String)
+comment6.text=\r\n\ intakes\ infix-notation\ equation\ and\ returns\ integer\ representation\ of\ evaluation\r\n\ @param\ str\ String\ type\ value\ representing\ equation\ to\ be\ evaluated\r\n\ @return\ String\ type\ value\ representing\ evaluation\ of\ inputted\ equation\r\n
+numComments=7

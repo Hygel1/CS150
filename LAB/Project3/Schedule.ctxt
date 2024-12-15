@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Schedule
+comment0.text=\r\n\ Interface\ to\ ensure\ that\ Classes\ conform\ to\ basic\ operations\ required\ by\ simulation\r\n\r\n\ @author\ Sean\ McLoughlin\r\n\ @version\ 12/14/24\r\n
+comment1.params=
+comment1.target=void\ action()
+comment2.params=
+comment2.target=int\ log_status()
+numComments=3

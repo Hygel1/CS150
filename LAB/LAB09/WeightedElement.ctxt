@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=WeightedElement
+comment0.text=\r\n\ Class\ to\ store\ value\ and\ weight\ objects\ to\ be\ used\ in\ PriorityQueue\ type\ object\r\n\r\n\ @author\ Sean\ McLoughlin\r\n\ @version\ 12/5/24\r\n
+comment1.params=value\ weight
+comment1.target=WeightedElement(java.lang.Object,\ java.lang.Comparable)
+comment1.text=\r\n\ builds\ new\ Weighted\ element\ value\ containing\ stored\ value\ and\ weight\r\n\ @param\ value\ E\ type\ object\ representing\ value\ being\ stored\r\n\ @param\ weight\ W\ type\ value\ representing\ value\ to\ be\ considered\ in\ comparison\r\n
+comment2.params=w
+comment2.target=int\ compareTo(WeightedElement)
+comment2.text=\r\n\ compares\ this\ WeightedElement\ object\ against\ another\ passed\ WeightedElement\ object\ based\ on\ their\ held\ weights\r\n\ @param\ WeightedElement\ object\ to\ be\ compared\r\n\ @return\ int\ value\ representing\ the\ difference\ between\ objects\ in\ format\ this\ minus\ that\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ returns\ String\ type\ value\ representing\ held\ value\r\n\ @return\ Strign\ type\ value\ representing\ String\ interpretation\ of\ the\ held\ value\r\n
+comment4.params=
+comment4.target=java.lang.Comparable\ getWeight()
+comment4.text=\r\n\ accessor\ method\ returning\ Weight\ value\ held\ by\ this\ WeightedElement\r\n\ @return\ W\ type\ value\ representing\ weight\ value\r\n
+numComments=5

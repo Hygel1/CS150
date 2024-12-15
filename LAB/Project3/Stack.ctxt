@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Stack
+comment0.text=\r\n\ Stores\ values\ in\ FILO\ order,\ allowing\ peek\ and\ pop\ to\ access\ last\ added\ value\r\n\ this\ class\ is\ implicly\ tested\ by\ the\ functionality\ of\ simulation\ classes\ as\ all\ methods\ are\ employed\r\n\r\n\ @author\ Sean\ McLoughlin\r\n\ @version\ 12/14/24\r\n
+comment1.params=
+comment1.target=Stack()
+comment2.params=
+comment2.target=java.lang.Object\ peek()
+comment2.text=\r\n\ returns\ last\ added\ value\ to\ Stack\r\n\ @return\ value\ last\ added\ to\ stack\r\n
+comment3.params=
+comment3.target=java.lang.Object\ pop()
+comment3.text=\r\n\ removes\ and\ returns\ last\ value\ added\ to\ Stack\r\n\ @return\ last\ value\ that\ was\ added\ to\ the\ stack\r\n
+comment4.params=
+comment4.target=int\ size()
+comment4.text=\r\n\ retruns\ number\ of\ values\ held\ by\ stack\r\n\ @return\ int\ value\ representing\ number\ of\ values\ held\ by\ current\ stack\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ returns\ values\ of\ Stack\ in\ readbale\ FILO\ format\r\n\ @reutrn\ readably\ formatted\ String\ representing\ Stack\r\n
+comment6.params=val
+comment6.target=void\ add(java.lang.Object)
+comment6.text=\r\n\ appends\ value\ to\ the\ end\ of\ list,\ applies\ FILO\ in\ pop/poll\ methods\r\n\ @param\ val\ value\ to\ be\ added\r\n
+comment7.params=
+comment7.target=boolean\ isEmpty()
+comment7.text=\r\n\ returns\ boolean\ value\ representing\ whether\ there\ are\ any\ values\ currently\ being\ held\ by\ Stack\r\n\ @return\ boolean\ representing\ whether\ Stack\ size\=\=0\r\n
+numComments=8

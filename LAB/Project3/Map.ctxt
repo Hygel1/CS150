@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Map
+comment1.params=
+comment1.target=Map()
+comment1.text=\r\n\ constructor\ to\ set\ all\ field\ values\ to\ a\ beginning\ state\r\n\ builds\ random\ trucks,\ warehouses,\ and\ shipments\ to\ be\ used\ throughout\ the\ simulation\r\n
+comment2.params=t\ w
+comment2.target=Map(ArrayList,\ ArrayList)
+comment2.text=\r\n\ testing\ constructor\ with\ predetermined\ truck\ and\ warehouse\ values\r\n\ @param\ t\ ArrayList\ of\ truck\ values\ to\ be\ used\ in\ simulation\r\n\ @param\ w\ ArrayList\ of\ warehouse\ vaules\ to\ be\ used\ in\ simulation\r\n
+comment3.params=
+comment3.target=void\ runSim()
+comment3.text=\r\n\ runs\ simulation\ until\ there\ are\ no\ more\ trucks\ to\ act\ on\ the\ map\r\n
+comment4.params=num
+comment4.target=void\ runSim(int)
+comment4.text=\r\n\ runs\ simulation\ a\ designated\ number\ of\ cycles,\ helpful\ for\ testing\ --\ will\ not\ run\ excess\ cycles\ if\ there\ are\ no\ more\ trucks\ to\ act\ on\r\n\ @param\ num\ number\ of\ cycles\ to\ be\ considered\r\n
+comment5.params=
+comment5.target=void\ action()
+comment5.text=\r\n\ performs\ one\ hour\ of\ action\ on\ the\ map\ by\ incrementing\ each\ truck\ one\ hour\ and\ updating\ log\ file\r\n
+comment6.params=
+comment6.target=int\ log_status()
+comment6.text=\r\n\ updates\ log\ file\ with\ every\ relevant\ object's\ information.\ Trucks,\ warehouses,\ and\ map\ give\ their\ own\ logs;\ shipments\ are\ implicitly\ logged\ through\ trucks\r\n\ @return\ int\ value\ representing\ successful\ log\ (1\=successful,\ -1\=fail)\r\n
+comment7.params=
+comment7.target=ArrayList\ getTrucks()
+comment7.text=\r\n\ testing\ method\ to\ return\ trucks\ list\r\n\ @return\ ArrayList\ of\ trucks\ representing\ current\ trucks\r\n
+numComments=8

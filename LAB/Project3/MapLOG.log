@@ -1,0 +1,918 @@
+ID: 523
+Cycle: 1
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(1): Location: [3, 3] | Storing 0/5 | State = Moving, Distance left: 11.165525060596439 | Active Shipment: S4 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S3 (2), S1 (2), S2 (2)
+Truck 2(1): Location: [12, 10] | Storing 0/2 | State = Moving, Distance left: 7.180339887498949 | Active Shipment: S5 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S6 (2), S7 (2), S7 (2)
+Truck 3(1): Location: [9, 8] | Storing 0/3 | State = Moving, Distance left: 3.7082039324993694 | Active Shipment: S12 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S9 (2), S10 (2), S11 (2)
+Truck 4(1): Location: [5, 5] | Storing 0/4 | State = Moving, Distance left: 8.0 | Active Shipment: S16 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S15 (2), S13 (2), S14 (2)
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 2
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(2): Location: [3, 3] | Storing 0/5 | State = Moving, Distance left: 10.165525060596439 | Active Shipment: S4 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S3 (2), S1 (2), S2 (2)
+Truck 2(2): Location: [12, 10] | Storing 0/2 | State = Moving, Distance left: 3.180339887498949 | Active Shipment: S5 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S6 (2), S7 (2), S7 (2)
+Truck 3(2): Location: [9, 8] | Storing 0/3 | State = Moving, Distance left: 0.7082039324993694 | Active Shipment: S12 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S9 (2), S10 (2), S11 (2)
+Truck 4(2): Location: [5, 5] | Storing 0/4 | State = Moving, Distance left: 6.0 | Active Shipment: S16 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S15 (2), S13 (2), S14 (2)
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 3
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(3): Location: [3, 3] | Storing 0/5 | State = Moving, Distance left: 9.165525060596439 | Active Shipment: S4 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S3 (2), S1 (2), S2 (2)
+Truck 2(3): Location: [12, 10] | Storing 0/2 | State = Loading, Time left: 2 | Active Shipment: S5 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S6 (2), S7 (2), S7 (2)
+Truck 3(3): Location: [9, 8] | Storing 0/3 | State = Loading, Time left: 1 | Active Shipment: S12 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S9 (2), S10 (2), S11 (2)
+Truck 4(3): Location: [5, 5] | Storing 0/4 | State = Moving, Distance left: 4.0 | Active Shipment: S16 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S15 (2), S13 (2), S14 (2)
+Warehouse 1: [T2, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [T3]
+Cycle: 4
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(4): Location: [3, 3] | Storing 0/5 | State = Moving, Distance left: 8.165525060596439 | Active Shipment: S4 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S3 (2), S1 (2), S2 (2)
+Truck 2(4): Location: [12, 10] | Storing 0/2 | State = Loading, Time left: 1 | Active Shipment: S5 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S6 (2), S7 (2), S7 (2)
+Truck 3(4): Location: [9, 8] | Storing 1/3 | State = FindJob | Active Shipment: null
+        On Board Shipments(1): [S12 (1)] | Eligible: S12 (1)
+        Itenerary (3): S9 (2), S10 (2), S11 (2)
+Truck 4(4): Location: [5, 5] | Storing 0/4 | State = Moving, Distance left: 2.0 | Active Shipment: S16 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S15 (2), S13 (2), S14 (2)
+Warehouse 1: [T2, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 5
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(5): Location: [3, 3] | Storing 0/5 | State = Moving, Distance left: 7.165525060596439 | Active Shipment: S4 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S3 (2), S1 (2), S2 (2)
+Truck 2(5): Location: [12, 10] | Storing 2/2 | State = FindJob | Active Shipment: null
+        On Board Shipments(1): [S5 (2)] | Eligible: S5 (2)
+        Itenerary (3): S6 (2), S7 (2), S7 (2)
+Truck 3(5): Location: [9, 8] | Storing 1/3 | State = Moving, Distance left: 3.7082039324993694 | Active Shipment: S12 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S9 (2), S10 (2), S11 (2)
+Truck 4(5): Location: [5, 5] | Storing 0/4 | State = Loading, Time left: 1 | Active Shipment: S16 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S15 (2), S13 (2), S14 (2)
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [T4]
+Cycle: 6
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(6): Location: [3, 3] | Storing 0/5 | State = Moving, Distance left: 6.165525060596439 | Active Shipment: S4 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S3 (2), S1 (2), S2 (2)
+Truck 2(6): Location: [12, 10] | Storing 2/2 | State = Moving, Distance left: 6.198039027185569 | Active Shipment: S5 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S6 (2), S7 (2), S7 (2)
+Truck 3(6): Location: [9, 8] | Storing 1/3 | State = Moving, Distance left: 0.7082039324993694 | Active Shipment: S12 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S9 (2), S10 (2), S11 (2)
+Truck 4(6): Location: [5, 5] | Storing 1/4 | State = FindJob | Active Shipment: null
+        On Board Shipments(1): [S16 (1)] | Eligible: S16 (1)
+        Itenerary (3): S15 (2), S13 (2), S14 (2)
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 7
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(7): Location: [3, 3] | Storing 0/5 | State = Moving, Distance left: 5.165525060596439 | Active Shipment: S4 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S3 (2), S1 (2), S2 (2)
+Truck 2(7): Location: [12, 10] | Storing 2/2 | State = Moving, Distance left: 2.198039027185569 | Active Shipment: S5 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S6 (2), S7 (2), S7 (2)
+Truck 3(7): Location: [9, 8] | Storing 1/3 | State = Unloading, Time left: 1 | Active Shipment: S12 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S9 (2), S10 (2), S11 (2)
+Truck 4(7): Location: [5, 5] | Storing 1/4 | State = Moving, Distance left: 1.0 | Active Shipment: S15 (2)
+        On Board Shipments(1): [S16 (1)] | Eligible: S16 (1)
+        Itenerary (2): S13 (2), S14 (2)
+Warehouse 1: [null, null, null]
+Warehouse 2: [T3, null]
+Warehouse 2: [T3, null]
+Warehouse 4: [null]
+Cycle: 8
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(8): Location: [3, 3] | Storing 0/5 | State = Moving, Distance left: 4.165525060596439 | Active Shipment: S4 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S3 (2), S1 (2), S2 (2)
+Truck 2(8): Location: [12, 10] | Storing 2/2 | State = Unloading, Time left: 2 | Active Shipment: S5 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S6 (2), S7 (2), S7 (2)
+Truck 3(8): Location: [9, 8] | Storing 0/3 | State = FindJob | Active Shipment: null
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S9 (2), S10 (2), S11 (2)
+Truck 4(8): Location: [5, 5] | Storing 1/4 | State = Loading, Time left: 2 | Active Shipment: S15 (2)
+        On Board Shipments(1): [S16 (1)] | Eligible: S16 (1)
+        Itenerary (2): S13 (2), S14 (2)
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 9
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(9): Location: [3, 3] | Storing 0/5 | State = Moving, Distance left: 3.1655250605964387 | Active Shipment: S4 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S3 (2), S1 (2), S2 (2)
+Truck 2(9): Location: [12, 10] | Storing 2/2 | State = Unloading, Time left: 1 | Active Shipment: S5 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S6 (2), S7 (2), S7 (2)
+Truck 3(9): Location: [9, 8] | Storing 0/3 | State = Moving, Distance left: 4.615773105863909 | Active Shipment: S9 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (2): S10 (2), S11 (2)
+Truck 4(9): Location: [5, 5] | Storing 1/4 | State = Loading, Time left: 1 | Active Shipment: S15 (2)
+        On Board Shipments(1): [S16 (1)] | Eligible: S16 (1)
+        Itenerary (2): S13 (2), S14 (2)
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 10
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(10): Location: [3, 3] | Storing 0/5 | State = Moving, Distance left: 2.1655250605964387 | Active Shipment: S4 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S3 (2), S1 (2), S2 (2)
+Truck 2(10): Location: [12, 10] | Storing 0/2 | State = FindJob | Active Shipment: null
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S6 (2), S7 (2), S7 (2)
+Truck 3(10): Location: [9, 8] | Storing 0/3 | State = Moving, Distance left: 1.6157731058639087 | Active Shipment: S9 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (2): S10 (2), S11 (2)
+Truck 4(10): Location: [5, 5] | Storing 3/4 | State = FindJob | Active Shipment: null
+        On Board Shipments(2): [S15 (2), S16 (1)] | Eligible: S15 (2)
+        Itenerary (2): S13 (2), S14 (2)
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 11
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(11): Location: [3, 3] | Storing 0/5 | State = Moving, Distance left: 1.1655250605964387 | Active Shipment: S4 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S3 (2), S1 (2), S2 (2)
+Truck 2(11): Location: [12, 10] | Storing 0/2 | State = Loading, Time left: 2 | Active Shipment: S6 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (2): S7 (2), S7 (2)
+Truck 3(11): Location: [9, 8] | Storing 0/3 | State = Loading, Time left: 2 | Active Shipment: S9 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (2): S10 (2), S11 (2)
+Truck 4(11): Location: [5, 5] | Storing 3/4 | State = Moving, Distance left: 3.8309518948453007 | Active Shipment: S15 (2)
+        On Board Shipments(1): [S16 (1)] | Eligible: S16 (1)
+        Itenerary (2): S13 (2), S14 (2)
+Warehouse 1: [T3, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 12
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(12): Location: [3, 3] | Storing 0/5 | State = Moving, Distance left: 0.16552506059643868 | Active Shipment: S4 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S3 (2), S1 (2), S2 (2)
+Truck 2(12): Location: [12, 10] | Storing 0/2 | State = Loading, Time left: 1 | Active Shipment: S6 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (2): S7 (2), S7 (2)
+Truck 3(12): Location: [9, 8] | Storing 0/3 | State = Loading, Time left: 1 | Active Shipment: S9 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (2): S10 (2), S11 (2)
+Truck 4(12): Location: [5, 5] | Storing 3/4 | State = Moving, Distance left: 1.8309518948453007 | Active Shipment: S15 (2)
+        On Board Shipments(1): [S16 (1)] | Eligible: S16 (1)
+        Itenerary (2): S13 (2), S14 (2)
+Warehouse 1: [T3, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 13
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(13): Location: [3, 3] | Storing 0/5 | State = Loading, Time left: 1 | Active Shipment: S4 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (3): S3 (2), S1 (2), S2 (2)
+Truck 2(13): Location: [12, 10] | Storing 2/2 | State = FindJob | Active Shipment: null
+        On Board Shipments(1): [S6 (2)] | Eligible: S6 (2)
+        Itenerary (2): S7 (2), S7 (2)
+Truck 3(13): Location: [9, 8] | Storing 2/3 | State = FindJob | Active Shipment: null
+        On Board Shipments(1): [S9 (2)] | Eligible: S9 (2)
+        Itenerary (2): S10 (2), S11 (2)
+Truck 4(13): Location: [5, 5] | Storing 3/4 | State = Unloading, Time left: 2 | Active Shipment: S15 (2)
+        On Board Shipments(1): [S16 (1)] | Eligible: S16 (1)
+        Itenerary (2): S13 (2), S14 (2)
+Warehouse 1: [T4, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [T1]
+Cycle: 14
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(14): Location: [3, 3] | Storing 1/5 | State = FindJob | Active Shipment: null
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (3): S3 (2), S1 (2), S2 (2)
+Truck 2(14): Location: [12, 10] | Storing 2/2 | State = Unloading, Time left: 2 | Active Shipment: S6 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (2): S7 (2), S7 (2)
+Truck 3(14): Location: [9, 8] | Storing 2/3 | State = Moving, Distance left: 4.615773105863909 | Active Shipment: S9 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (2): S10 (2), S11 (2)
+Truck 4(14): Location: [5, 5] | Storing 3/4 | State = Unloading, Time left: 1 | Active Shipment: S15 (2)
+        On Board Shipments(1): [S16 (1)] | Eligible: S16 (1)
+        Itenerary (2): S13 (2), S14 (2)
+Warehouse 1: [T4, T2, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 15
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(15): Location: [3, 3] | Storing 1/5 | State = Moving, Distance left: 4.0 | Active Shipment: S3 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (2): S2 (2), S1 (2)
+Truck 2(15): Location: [12, 10] | Storing 2/2 | State = Unloading, Time left: 1 | Active Shipment: S6 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (2): S7 (2), S7 (2)
+Truck 3(15): Location: [9, 8] | Storing 2/3 | State = Moving, Distance left: 1.6157731058639087 | Active Shipment: S9 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (2): S10 (2), S11 (2)
+Truck 4(15): Location: [5, 5] | Storing 1/4 | State = FindJob | Active Shipment: null
+        On Board Shipments(1): [S16 (1)] | Eligible: S16 (1)
+        Itenerary (2): S13 (2), S14 (2)
+Warehouse 1: [null, T2, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 16
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(16): Location: [3, 3] | Storing 1/5 | State = Moving, Distance left: 3.0 | Active Shipment: S3 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (2): S2 (2), S1 (2)
+Truck 2(16): Location: [12, 10] | Storing 0/2 | State = FindJob | Active Shipment: null
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (2): S7 (2), S7 (2)
+Truck 3(16): Location: [9, 8] | Storing 2/3 | State = Unloading, Time left: 2 | Active Shipment: S9 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (2): S10 (2), S11 (2)
+Truck 4(16): Location: [5, 5] | Storing 1/4 | State = Moving, Distance left: 1.0 | Active Shipment: S13 (2)
+        On Board Shipments(1): [S16 (1)] | Eligible: S16 (1)
+        Itenerary (1): S14 (2)
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 17
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(17): Location: [3, 3] | Storing 1/5 | State = Moving, Distance left: 2.0 | Active Shipment: S3 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (2): S2 (2), S1 (2)
+Truck 2(17): Location: [12, 10] | Storing 0/2 | State = Moving, Distance left: 4.062257748298549 | Active Shipment: S7 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (1): S7 (2)
+Truck 3(17): Location: [9, 8] | Storing 2/3 | State = Unloading, Time left: 1 | Active Shipment: S9 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (2): S10 (2), S11 (2)
+Truck 4(17): Location: [5, 5] | Storing 1/4 | State = Loading, Time left: 2 | Active Shipment: S13 (2)
+        On Board Shipments(1): [S16 (1)] | Eligible: S16 (1)
+        Itenerary (1): S14 (2)
+Warehouse 1: [T4, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 18
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(18): Location: [3, 3] | Storing 1/5 | State = Moving, Distance left: 1.0 | Active Shipment: S3 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (2): S2 (2), S1 (2)
+Truck 2(18): Location: [12, 10] | Storing 0/2 | State = Moving, Distance left: 0.06225774829854913 | Active Shipment: S7 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (1): S7 (2)
+Truck 3(18): Location: [9, 8] | Storing 0/3 | State = FindJob | Active Shipment: null
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (2): S10 (2), S11 (2)
+Truck 4(18): Location: [5, 5] | Storing 1/4 | State = Loading, Time left: 1 | Active Shipment: S13 (2)
+        On Board Shipments(1): [S16 (1)] | Eligible: S16 (1)
+        Itenerary (1): S14 (2)
+Warehouse 1: [T4, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 19
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(19): Location: [3, 3] | Storing 1/5 | State = Loading, Time left: 2 | Active Shipment: S3 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (2): S2 (2), S1 (2)
+Truck 2(19): Location: [12, 10] | Storing 0/2 | State = Loading, Time left: 2 | Active Shipment: S7 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (1): S7 (2)
+Truck 3(19): Location: [9, 8] | Storing 0/3 | State = Moving, Distance left: 2.0990195135927845 | Active Shipment: S10 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (1): S11 (2)
+Truck 4(19): Location: [5, 5] | Storing 3/4 | State = FindJob | Active Shipment: null
+        On Board Shipments(2): [S13 (2), S16 (1)] | Eligible: S13 (2)
+        Itenerary (1): S14 (2)
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 20
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(20): Location: [3, 3] | Storing 1/5 | State = Loading, Time left: 1 | Active Shipment: S3 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (2): S2 (2), S1 (2)
+Truck 2(20): Location: [12, 10] | Storing 0/2 | State = Loading, Time left: 1 | Active Shipment: S7 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (1): S7 (2)
+Truck 3(20): Location: [9, 8] | Storing 0/3 | State = Loading, Time left: 2 | Active Shipment: S10 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (1): S11 (2)
+Truck 4(20): Location: [5, 5] | Storing 3/4 | State = Moving, Distance left: 1.0 | Active Shipment: S13 (2)
+        On Board Shipments(1): [S16 (1)] | Eligible: S16 (1)
+        Itenerary (1): S14 (2)
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 21
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(21): Location: [3, 3] | Storing 3/5 | State = FindJob | Active Shipment: null
+        On Board Shipments(2): [S3 (2), S4 (1)] | Eligible: S3 (2)
+        Itenerary (2): S2 (2), S1 (2)
+Truck 2(21): Location: [12, 10] | Storing 2/2 | State = FindJob | Active Shipment: null
+        On Board Shipments(1): [S7 (2)] | Eligible: S7 (2)
+        Itenerary (1): S7 (2)
+Truck 3(21): Location: [9, 8] | Storing 0/3 | State = Loading, Time left: 1 | Active Shipment: S10 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (1): S11 (2)
+Truck 4(21): Location: [5, 5] | Storing 3/4 | State = Unloading, Time left: 2 | Active Shipment: S13 (2)
+        On Board Shipments(1): [S16 (1)] | Eligible: S16 (1)
+        Itenerary (1): S14 (2)
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 22
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(22): Location: [3, 3] | Storing 3/5 | State = Moving, Distance left: 4.0 | Active Shipment: S3 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (2): S2 (2), S1 (2)
+Truck 2(22): Location: [12, 10] | Storing 2/2 | State = Moving, Distance left: 4.062257748298549 | Active Shipment: S7 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (1): S7 (2)
+Truck 3(22): Location: [9, 8] | Storing 2/3 | State = FindJob | Active Shipment: null
+        On Board Shipments(1): [S10 (2)] | Eligible: S10 (2)
+        Itenerary (1): S11 (2)
+Truck 4(22): Location: [5, 5] | Storing 3/4 | State = Unloading, Time left: 1 | Active Shipment: S13 (2)
+        On Board Shipments(1): [S16 (1)] | Eligible: S16 (1)
+        Itenerary (1): S14 (2)
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 23
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(23): Location: [3, 3] | Storing 3/5 | State = Moving, Distance left: 3.0 | Active Shipment: S3 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (2): S2 (2), S1 (2)
+Truck 2(23): Location: [12, 10] | Storing 2/2 | State = Moving, Distance left: 0.06225774829854913 | Active Shipment: S7 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (1): S7 (2)
+Truck 3(23): Location: [9, 8] | Storing 2/3 | State = Moving, Distance left: 2.0990195135927845 | Active Shipment: S10 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (1): S11 (2)
+Truck 4(23): Location: [5, 5] | Storing 1/4 | State = FindJob | Active Shipment: null
+        On Board Shipments(1): [S16 (1)] | Eligible: S16 (1)
+        Itenerary (1): S14 (2)
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 24
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(24): Location: [3, 3] | Storing 3/5 | State = Moving, Distance left: 2.0 | Active Shipment: S3 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (2): S2 (2), S1 (2)
+Truck 2(24): Location: [12, 10] | Storing 2/2 | State = Unloading, Time left: 2 | Active Shipment: S7 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (1): S7 (2)
+Truck 3(24): Location: [9, 8] | Storing 2/3 | State = Unloading, Time left: 2 | Active Shipment: S10 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (1): S11 (2)
+Truck 4(24): Location: [5, 5] | Storing 1/4 | State = Moving, Distance left: 1.0 | Active Shipment: S14 (2)
+        On Board Shipments(1): [S16 (1)] | Eligible: S16 (1)
+        Itenerary (0): 
+Warehouse 1: [T2, T3, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 25
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(25): Location: [3, 3] | Storing 3/5 | State = Moving, Distance left: 1.0 | Active Shipment: S3 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (2): S2 (2), S1 (2)
+Truck 2(25): Location: [12, 10] | Storing 2/2 | State = Unloading, Time left: 1 | Active Shipment: S7 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (1): S7 (2)
+Truck 3(25): Location: [9, 8] | Storing 2/3 | State = Unloading, Time left: 1 | Active Shipment: S10 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (1): S11 (2)
+Truck 4(25): Location: [5, 5] | Storing 1/4 | State = Loading, Time left: 2 | Active Shipment: S14 (2)
+        On Board Shipments(1): [S16 (1)] | Eligible: S16 (1)
+        Itenerary (0): 
+Warehouse 1: [T2, T3, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 26
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(26): Location: [3, 3] | Storing 3/5 | State = Unloading, Time left: 2 | Active Shipment: S3 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (2): S2 (2), S1 (2)
+Truck 2(26): Location: [12, 10] | Storing 0/2 | State = FindJob | Active Shipment: null
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (1): S7 (2)
+Truck 3(26): Location: [9, 8] | Storing 0/3 | State = FindJob | Active Shipment: null
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (1): S11 (2)
+Truck 4(26): Location: [5, 5] | Storing 1/4 | State = Loading, Time left: 1 | Active Shipment: S14 (2)
+        On Board Shipments(1): [S16 (1)] | Eligible: S16 (1)
+        Itenerary (0): 
+Warehouse 1: [null, null, T1]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 27
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(27): Location: [3, 3] | Storing 3/5 | State = Unloading, Time left: 1 | Active Shipment: S3 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (2): S2 (2), S1 (2)
+Truck 2(27): Location: [12, 10] | Storing 0/2 | State = Moving, Distance left: 2.4031242374328485 | Active Shipment: S7 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Truck 3(27): Location: [9, 8] | Storing 0/3 | State = Moving, Distance left: 0.16227766016837952 | Active Shipment: S11 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Truck 4(27): Location: [5, 5] | Storing 3/4 | State = FindJob | Active Shipment: null
+        On Board Shipments(2): [S14 (2), S16 (1)] | Eligible: S14 (2)
+        Itenerary (0): 
+Warehouse 1: [null, null, T1]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 28
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(28): Location: [3, 3] | Storing 1/5 | State = FindJob | Active Shipment: null
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (2): S2 (2), S1 (2)
+Truck 2(28): Location: [12, 10] | Storing 0/2 | State = Unloading, Time left: 2 | Active Shipment: S7 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Truck 3(28): Location: [9, 8] | Storing 0/3 | State = Loading, Time left: 2 | Active Shipment: S11 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Truck 4(28): Location: [5, 5] | Storing 3/4 | State = Moving, Distance left: 1.0 | Active Shipment: S14 (2)
+        On Board Shipments(1): [S16 (1)] | Eligible: S16 (1)
+        Itenerary (0): 
+Warehouse 1: [T2, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 29
+      Trucks(4): [T1, T2, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(29): Location: [3, 3] | Storing 1/5 | State = Moving, Distance left: 4.0 | Active Shipment: S2 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (1): S1 (2)
+Truck 2(29): Location: [12, 10] | Storing 0/2 | State = Unloading, Time left: 1 | Active Shipment: S7 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Truck 3(29): Location: [9, 8] | Storing 0/3 | State = Loading, Time left: 1 | Active Shipment: S11 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Truck 4(29): Location: [5, 5] | Storing 3/4 | State = Unloading, Time left: 2 | Active Shipment: S14 (2)
+        On Board Shipments(1): [S16 (1)] | Eligible: S16 (1)
+        Itenerary (0): 
+Warehouse 1: [T2, T4, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 30
+      Trucks(3): [T1, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(30): Location: [3, 3] | Storing 1/5 | State = Moving, Distance left: 3.0 | Active Shipment: S2 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (1): S1 (2)
+Truck 3(29): Location: [9, 8] | Storing 0/3 | State = Loading, Time left: 1 | Active Shipment: S11 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Truck 4(30): Location: [5, 5] | Storing 3/4 | State = Unloading, Time left: 1 | Active Shipment: S14 (2)
+        On Board Shipments(1): [S16 (1)] | Eligible: S16 (1)
+        Itenerary (0): 
+Warehouse 1: [null, T4, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 31
+      Trucks(3): [T1, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(31): Location: [3, 3] | Storing 1/5 | State = Moving, Distance left: 2.0 | Active Shipment: S2 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (1): S1 (2)
+Truck 3(30): Location: [9, 8] | Storing 2/3 | State = FindJob | Active Shipment: null
+        On Board Shipments(1): [S11 (2)] | Eligible: S11 (2)
+        Itenerary (0): 
+Truck 4(31): Location: [5, 5] | Storing 1/4 | State = FindJob | Active Shipment: null
+        On Board Shipments(1): [S16 (1)] | Eligible: S16 (1)
+        Itenerary (0): 
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 32
+      Trucks(3): [T1, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(32): Location: [3, 3] | Storing 1/5 | State = Moving, Distance left: 1.0 | Active Shipment: S2 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (1): S1 (2)
+Truck 3(31): Location: [9, 8] | Storing 2/3 | State = Moving, Distance left: 2.0990195135927845 | Active Shipment: S11 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Truck 4(32): Location: [5, 5] | Storing 1/4 | State = Moving, Distance left: 8.0 | Active Shipment: S16 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 33
+      Trucks(3): [T1, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(33): Location: [3, 3] | Storing 1/5 | State = Loading, Time left: 2 | Active Shipment: S2 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (1): S1 (2)
+Truck 3(32): Location: [9, 8] | Storing 2/3 | State = Unloading, Time left: 2 | Active Shipment: S11 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Truck 4(33): Location: [5, 5] | Storing 1/4 | State = Moving, Distance left: 6.0 | Active Shipment: S16 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Warehouse 1: [T3, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 34
+      Trucks(3): [T1, T3, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(34): Location: [3, 3] | Storing 1/5 | State = Loading, Time left: 1 | Active Shipment: S2 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (1): S1 (2)
+Truck 3(33): Location: [9, 8] | Storing 2/3 | State = Unloading, Time left: 1 | Active Shipment: S11 (2)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Truck 4(34): Location: [5, 5] | Storing 1/4 | State = Moving, Distance left: 4.0 | Active Shipment: S16 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Warehouse 1: [T3, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 35
+      Trucks(2): [T1, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(35): Location: [3, 3] | Storing 3/5 | State = FindJob | Active Shipment: null
+        On Board Shipments(2): [S2 (2), S4 (1)] | Eligible: S2 (2)
+        Itenerary (1): S1 (2)
+Truck 4(34): Location: [5, 5] | Storing 1/4 | State = Moving, Distance left: 4.0 | Active Shipment: S16 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 36
+      Trucks(2): [T1, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(36): Location: [3, 3] | Storing 3/5 | State = Moving, Distance left: 4.0 | Active Shipment: S2 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (1): S1 (2)
+Truck 4(35): Location: [5, 5] | Storing 1/4 | State = Moving, Distance left: 2.0 | Active Shipment: S16 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 37
+      Trucks(2): [T1, T4, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(37): Location: [3, 3] | Storing 3/5 | State = Moving, Distance left: 3.0 | Active Shipment: S2 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (1): S1 (2)
+Truck 4(36): Location: [5, 5] | Storing 1/4 | State = Unloading, Time left: 1 | Active Shipment: S16 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Warehouse 1: [null, null, null]
+Warehouse 2: [T4, null]
+Warehouse 2: [T4, null]
+Warehouse 4: [null]
+Cycle: 38
+      Trucks(1): [T1, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(38): Location: [3, 3] | Storing 3/5 | State = Moving, Distance left: 2.0 | Active Shipment: S2 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (1): S1 (2)
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 39
+      Trucks(1): [T1, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(39): Location: [3, 3] | Storing 3/5 | State = Moving, Distance left: 1.0 | Active Shipment: S2 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (1): S1 (2)
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 40
+      Trucks(1): [T1, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(40): Location: [3, 3] | Storing 3/5 | State = Unloading, Time left: 2 | Active Shipment: S2 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (1): S1 (2)
+Warehouse 1: [T1, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 41
+      Trucks(1): [T1, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(41): Location: [3, 3] | Storing 3/5 | State = Unloading, Time left: 1 | Active Shipment: S2 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (1): S1 (2)
+Warehouse 1: [T1, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 42
+      Trucks(1): [T1, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(42): Location: [3, 3] | Storing 1/5 | State = FindJob | Active Shipment: null
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (1): S1 (2)
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 43
+      Trucks(1): [T1, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(43): Location: [3, 3] | Storing 1/5 | State = Loading, Time left: 2 | Active Shipment: S1 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (0): 
+Warehouse 1: [T1, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 44
+      Trucks(1): [T1, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(44): Location: [3, 3] | Storing 1/5 | State = Loading, Time left: 1 | Active Shipment: S1 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (0): 
+Warehouse 1: [T1, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 45
+      Trucks(1): [T1, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(45): Location: [3, 3] | Storing 3/5 | State = FindJob | Active Shipment: null
+        On Board Shipments(2): [S1 (2), S4 (1)] | Eligible: S1 (2)
+        Itenerary (0): 
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 46
+      Trucks(1): [T1, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(46): Location: [3, 3] | Storing 3/5 | State = Unloading, Time left: 2 | Active Shipment: S1 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (0): 
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 47
+      Trucks(1): [T1, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(47): Location: [3, 3] | Storing 3/5 | State = Unloading, Time left: 1 | Active Shipment: S1 (2)
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (0): 
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 48
+      Trucks(1): [T1, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(48): Location: [3, 3] | Storing 1/5 | State = FindJob | Active Shipment: null
+        On Board Shipments(1): [S4 (1)] | Eligible: S4 (1)
+        Itenerary (0): 
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 49
+      Trucks(1): [T1, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(49): Location: [3, 3] | Storing 1/5 | State = Moving, Distance left: 11.165525060596439 | Active Shipment: S4 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 50
+      Trucks(1): [T1, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(50): Location: [3, 3] | Storing 1/5 | State = Moving, Distance left: 10.165525060596439 | Active Shipment: S4 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 51
+      Trucks(1): [T1, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(51): Location: [3, 3] | Storing 1/5 | State = Moving, Distance left: 9.165525060596439 | Active Shipment: S4 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 52
+      Trucks(1): [T1, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(52): Location: [3, 3] | Storing 1/5 | State = Moving, Distance left: 8.165525060596439 | Active Shipment: S4 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 53
+      Trucks(1): [T1, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(53): Location: [3, 3] | Storing 1/5 | State = Moving, Distance left: 7.165525060596439 | Active Shipment: S4 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 54
+      Trucks(1): [T1, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(54): Location: [3, 3] | Storing 1/5 | State = Moving, Distance left: 6.165525060596439 | Active Shipment: S4 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 55
+      Trucks(1): [T1, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(55): Location: [3, 3] | Storing 1/5 | State = Moving, Distance left: 5.165525060596439 | Active Shipment: S4 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 56
+      Trucks(1): [T1, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(56): Location: [3, 3] | Storing 1/5 | State = Moving, Distance left: 4.165525060596439 | Active Shipment: S4 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 57
+      Trucks(1): [T1, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(57): Location: [3, 3] | Storing 1/5 | State = Moving, Distance left: 3.1655250605964387 | Active Shipment: S4 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 58
+      Trucks(1): [T1, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(58): Location: [3, 3] | Storing 1/5 | State = Moving, Distance left: 2.1655250605964387 | Active Shipment: S4 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 59
+      Trucks(1): [T1, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(59): Location: [3, 3] | Storing 1/5 | State = Moving, Distance left: 1.1655250605964387 | Active Shipment: S4 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 60
+      Trucks(1): [T1, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(60): Location: [3, 3] | Storing 1/5 | State = Moving, Distance left: 0.16552506059643868 | Active Shipment: S4 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]
+Cycle: 61
+      Trucks(1): [T1, null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Truck 1(61): Location: [3, 3] | Storing 1/5 | State = Unloading, Time left: 1 | Active Shipment: S4 (1)
+        On Board Shipments(0): [ | Eligible: truck empty
+        Itenerary (0): 
+Warehouse 1: [null, null, null]
+Warehouse 2: [T1, null]
+Warehouse 2: [T1, null]
+Warehouse 4: [null]
+Cycle: 62
+      Trucks(0): [null]
+      Warehouses(4): [W1, W2, W2, W4, null]
+Warehouse 1: [null, null, null]
+Warehouse 2: [null, null]
+Warehouse 2: [null, null]
+Warehouse 4: [null]

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=WarehouseTest
+comment0.text=\r\n\ The\ test\ class\ WarehouseTest.\r\n\r\n\ @author\ \ Sean\ McLoughlin\ \r\n\ @version\ 12/14/24\r\n
+comment1.params=
+comment1.target=void\ testDock()
+comment1.text=\r\n\ tests\ add\ method\ by\ building\ Shipment\ object\ and\ testing\ that\ the\ set\ value\ is\ read\ back\ by\ the\ get\ method\ -\ testing\ both\ methods\r\n
+numComments=2

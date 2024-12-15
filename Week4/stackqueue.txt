@@ -1,0 +1,25 @@
+queue is an abstract interface, extends Collection class
+    BasicQueue eliminates need for full Collection support
+    BasicStack gives interface for stack abstract data types and helps us understand standard terminology
+Arithmetic
+    order of operations is extremely inefficient for a computer -- tries to directly apply pemdas
+    infix Arithmetic
+        opeator is inserted between the two values it operates on -- 3*5=15, 1-(2*3)
+    postfix Arithmetic 
+        operator is added after the two values it operates on -- 3 5 * = 15, 1-(2*3) = 1 2 3 * -, (1-2)*3 = 1 2 - 3 *
+        postfix eliminates the need for order of operations and parentheses -- just work left to right
+            this makes things significantly easier for the cmoputer to read and use for operations
+        6 7 3 - 4 * = 6+((7-3)*4) = 22
+        9 7 + 2 3 * - = (9+7)-(2*3) = 10
+        4 3 8 + 7 - * = 4*((3+8)-7) = 
+        computer evaluation of postfix
+            obvious way to do this would be nested loop, but the computer follows a more efficient algorithm
+            as the computer walks across the numbers, it adds them to a stack
+                when an operator is encountered, the last 2 numbers are 'popped' and the operator is performed, then the result is added to the end of the queue
+                continues to move through the string representation until the final result is determined
+            each 'token' results in some sort of operation -- token = number or operand experienced in input string
+    infix evaluation by computer
+        infix is generally translated into postfix, then solved using typical postfix queue method
+        must evaluate entire equation to account for different precedence levels of operators
+            this uses an if statement to compare precedence levels
+            

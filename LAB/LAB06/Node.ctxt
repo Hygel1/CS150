@@ -1,0 +1,32 @@
+#BlueJ class context
+comment0.target=Node
+comment1.params=d
+comment1.target=Node(java.lang.Object)
+comment1.text=\r\n\ builds\ new\ Node\ object\ with\ empty\ next\ value\ and\ specified\ value\r\n\ @param\ d\ E\ type\ object\ containing\ the\ value\ to\ be\ stored\ by\ built\ node\r\n
+comment10.params=
+comment10.target=java.lang.String\ recStringHelper()
+comment10.text=\r\n\ recursively\ builds\ readable\ String\ to\ represent\ list,\ necessary\ to\ prevent\ opening\ brace\ from\ being\ repeatde\ given\ that\ there\ is\ no\ inherent\ check\ whether\ a\ node\ begins\ a\ list\r\n\ @return\ representation\ of\ current\ node\ follwed\ by\ "}"\ if\ last\ node\ or\ ",\ "\ if\ there\ exists\ a\ following\ node\r\n
+comment2.params=arr
+comment2.target=Node(java.util.ArrayList)
+comment2.text=\r\n\ builds\ a\ String\ of\ nodes\ containing\ the\ values\ found\ in\ arr\ parameter.\ Uses\ addToEnd\ method\ to\ append\ each\ value\r\n\ @param\ arr\ ArrayList\ object\ containing\ values\ to\ be\ added\ to\ the\ list\r\n
+comment3.params=d
+comment3.target=void\ addToEnd(java.lang.Object)
+comment3.text=\r\n\ Recursive\ addition\ structure.\ If\ current\ node\ is\ last\ (next\=\=null),\ add\ as\ next,\ otherwise\ pass\ to\ next\ node\ down\ the\ line\r\n\ @param\ d\ E\ type\ object\ containing\ the\ value\ to\ be\ appended\ to\ the\ beginning\ of\ the\ list\r\n
+comment4.params=node
+comment4.target=void\ setNext(Node)
+comment4.text=\r\n\ helper\ method\:\r\n\ sets\ the\ next\ value\ of\ a\ node\ to\ be\ the\ passed\ node\ value\ (useful\ setter\ method)\r\n\ @param\ node\ Node\ object\ to\ be\ set\ as\ next\ value\r\n
+comment5.params=k
+comment5.target=void\ rotate(int)
+comment5.text=\r\n\ 'rotates'\ list\ by\ pushing\ values\ down\ one\ index\ assuming\ circular\ list\r\n\ @param\ k\ int\ value\ representing\ number\ of\ times\ to\ 'rotate'\ list\r\n
+comment6.params=passVal
+comment6.target=java.lang.Object\ rotateHelper(java.lang.Object)
+comment6.text=\r\n\ recursively\ pushes\ through\ list,\ pushing\ values\ down\ the\ list\ one\ time\r\n\ this\ method\ sets\ the\ first\ value\ in\ list\ to\ be\ whatever\ the\ initial\ call\ parameter\ is,\ but\ sicne\ it\ is\ called\ from\ this\ object,\ this\ value\ can\ be\ given\ any\ value\ as\ long\ as\ the\ returned\ value\ is\ handled\ correctly\r\n\ @param\ val\ E\ object\ representing\ value\ to\ be\ set\ in\ current\ node\r\n\ @return\ value\ at\ the\ end\ of\ the\ list\r\n
+comment7.params=
+comment7.target=java.lang.Object\ getVal()
+comment7.text=\r\n\ getter\ method\ to\ return\ value\ carried\ by\ node\r\n\ @return\ value\ carried\ by\ current\ node\r\n
+comment8.params=
+comment8.target=Node\ getNext()
+comment9.params=
+comment9.target=java.lang.String\ toString()
+comment9.text=\r\n\ recursively\ returns\ readable\ String\ representation\ of\ full\ list\r\n\ @return\ String\ representation\ of\ list\r\n
+numComments=11

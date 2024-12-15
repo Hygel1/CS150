@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=QuestionOne
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ intakes\ a\ text\ file\ containing\ space-separated\ (and\ line-separated)\ numbers,\ and\ outputs\ a\ file\ containing\ the\ same\ values\ multiplied\ by\ 10\r\n
+numComments=2

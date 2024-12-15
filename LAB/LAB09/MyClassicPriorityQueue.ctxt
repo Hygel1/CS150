@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=MyClassicPriorityQueue
+comment1.params=
+comment1.target=MyClassicPriorityQueue()
+comment1.text=\r\n\ builds\ new\ ClassicPriorityQueue\ with\ empty\ Hashmap\ and\ no\ held\ values\r\n
+comment2.params=target\ smallerValue
+comment2.target=java.lang.Comparable\ decreaseKey(java.lang.Comparable,\ java.lang.Comparable)
+comment2.text=\r\n\ replaces\ target\ with\ a\ passed\ smaller\ node,\ then\ percolates\ new\ value\ down\ the\ queue\ until\ it\ is\ found\ to\ be\ in\ the\ right\ spot\r\n\ if\ the\ replacement\ value\ is\ smaller\ than\ the\ target\ value,\ no\ swap\ occurs\ and\ null\ is\ returned\r\n\ @param\ target\ T\ type\ value\ representing\ vaule\ to\ be\ replaced\r\n\ @param\ smallerValue\ T\ type\ value\ representing\ replacement\ value\r\n\ @return\ T\ type\ value\ representing\ replaced\ value,\ null\ if\ swap\ was\ unsuccessful\r\n
+comment3.params=
+comment3.target=java.lang.Comparable\ poll()
+comment3.text=\r\n\ returns\ and\ removes\ value\ found\ at\ top\ of\ queue,\ then\ updates\ array\ to\ maintain\ format\r\n\ @return\ T\ type\ value\ representing\ removed\ value\ previously\ at\ from\ of\ queue\r\n
+comment4.params=t
+comment4.target=boolean\ add(java.lang.Comparable)
+comment4.text=\r\n\ updated\ version\ of\ add()\ to\ reflect\ needs\ of\ HashMap.\ Adds\ value\ to\ bottom\ of\ queue,\ then\ percolates\ up\ until\ value\ is\ at\ correct\ spot\r\n\ value\ adds\ are\ only\ successful\ if\ the\ value\ being\ added\ does\ not\ already\ exist\ in\ the\ queue\r\n\ @param\ t\ T\ type\ value\ representing\ value\ to\ be\ added\r\n\ @return\ boolean\ type\ value\ representing\ whether\ the\ add\ was\ successsful\r\n
+comment5.params=beginningInd
+comment5.target=void\ percDown(int)
+comment5.text=\r\n\ helper\ method\ to\ percolate\ values\ down\ the\ queue\ in\ case\ of\ misalignment\ when\ swapping\r\n\ @param\ beginningInd\ int\ type\ value\ representing\ index\ in\ array\ to\ be\ initially\ considered\r\n
+comment6.params=v1\ v2
+comment6.target=void\ swapMap(java.lang.Comparable,\ java.lang.Comparable)
+comment6.text=\r\n\ swaps\ two\ values\ held\ index\ values\ in\ hash\ map.\ This\ is\ helpful\ for\ maintaining\ map\ integrity\ when\ percolating\ or\ swapping\ values\r\n\ @param\ v1\ T\ type\ value\ representing\ first\ value\ to\ be\ swapped\r\n\ @param\ v2\ T\ type\ value\ representign\ second\ value\ to\ be\ swapped\r\n
+comment7.params=val
+comment7.target=int\ getMap(java.lang.Comparable)
+comment7.text=\r\n\ returns\ the\ hash\ map\ value\ of\ a\ given\ key\r\n\ @return\ has\ map\ value\ at\ key\r\n
+numComments=8

@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=RestaurantReview
+comment0.text=\r\n\r\n\ @author\ Sean\ McLoughlin\r\n\ @version\ 10/24/2024\r\n
+comment1.params=name\ rate
+comment1.target=RestaurantReview(java.lang.String,\ float)
+comment2.params=other
+comment2.target=int\ compareTo(RestaurantReview)
+comment2.text=\r\n\ compares\ two\ RestaurantReview\ classes\ based\ on\ their\ rating\ values\r\n\ @return\ int\ representation\ of\ how\ values\ compare\ to\ each\ other,\ higher\ rating\ means\ lesser\ value\r\n
+comment3.params=
+comment3.target=float\ getRating()
+comment3.text=\r\n\ returns\ value\ stored\ by\ rating\ float\ value\r\n\ @return\ float\ type\ value\ stored\ currently\ as\ rating\r\n
+comment4.params=rating
+comment4.target=void\ setRating(float)
+comment4.text=\r\n\ sets\ rating\ value\ to\ passed\ float\ value\r\n\ @param\ rating\ float\ type\ value\ to\ be\ used\ as\ rating\r\n
+comment5.params=
+comment5.target=java.lang.String\ getRestaurantName()
+comment5.text=\r\n\ returns\ value\ stored\ in\ RestaurantName\ Strign\r\n\ @return\ String\ type\ object\ representing\ restaurantName\ value\r\n
+comment6.params=name
+comment6.target=void\ setRestaurantName(java.lang.String)
+comment6.text=\r\n\ sets\ restaurantName\ Strign\ value\ to\ passed\ Strign\ value\r\n\ @param\ name\ String\ type\ object\ to\ be\ used\ as\ restaurantName\ value\r\n
+numComments=7

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=ArrayList
+comment0.text=\r\n\ Provides\ easy\ access\ for\ values\ in\ 'list'\ form\ by\ managing\ an\ array\ to\ appear\ as\ a\ list\r\n\ this\ class\ is\ implicly\ tested\ by\ the\ functionality\ of\ simulation\ classes\ as\ all\ methods\ are\ employed\r\n\ \r\n\ @author\ Sean\ McLoughlin\r\n\ @version\ 12/14/24\r\n
+comment1.params=
+comment1.target=ArrayList()
+comment1.text=\r\n\ empty\ constructor\ for\ ArrayList,\ builds\ new\ array\ of\ defult\ size\ 10\ and\ sets\ size\ to\ 0\r\n
+comment2.params=val
+comment2.target=void\ add(java.lang.Object)
+comment2.text=\r\n\ adds\ value\ to\ list,\ doubles\ list\ size\ if\ array\ is\ full\ after\ last\ add\r\n\ @param\ val\r\n
+comment3.params=i
+comment3.target=java.lang.Object\ remove(int)
+comment3.text=\r\n\ remove\ value\ from\ specified\ index\ and\ return\ removed\ value\r\n\ @param\ i\ index\ of\ value\ to\ be\ removed\r\n\ @return\ E\ type\ value\ at\ index\ of\ removal\r\n
+comment4.params=
+comment4.target=int\ size()
+comment4.text=\r\n\ returns\ int\ value\ representing\ number\ of\ values\ held\ by\ list\r\n\ @return\ number\ of\ elements\ held\ by\ list\r\n
+comment5.params=n
+comment5.target=java.lang.Object\ get(int)
+comment5.text=\r\n\ returns\ value\ at\ specified\ location\ in\ list,\ throws\ ArrayIndexOutOfBoundsException\ if\ specified\ index\ is\ out\ of\ range\r\n\ @param\ n\ index\ to\ be\ checked\r\n\ @return\ value\ at\ specified\ index\r\n
+comment6.params=val
+comment6.target=boolean\ contains(java.lang.Object)
+comment6.text=\r\n\ checks\ internal\ array\ for\ passed\ value\r\n\ @param\ val\ value\ to\ be\ searched\ for\r\n\ @return\ boolean\ representing\ whether\ the\ specified\ value\ exists\ in\ the\ list\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ returns\ arraylist\ values\ in\ readable\ format\ as\ coherent\ list\r\n\ @return\ readably\ formatted\ ArrayList\ String\r\n
+numComments=8
